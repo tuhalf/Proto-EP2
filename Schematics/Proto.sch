@@ -13347,7 +13347,7 @@ Source: ENG_CD_794681_E.pdf</description>
 </sheet>
 </sheets>
 </module>
-<module name="PROGRAM-COUNTER" prefix="" dx="30.48" dy="20.32">
+<module name="PROGRAM-COUNTER" prefix="" dx="30.48" dy="50.8">
 <ports>
 <port name="16B_1" side="right" coord="7.62" direction="io"/>
 <port name="16B_2" side="right" coord="5.08" direction="io"/>
@@ -13380,6 +13380,9 @@ Source: ENG_CD_794681_E.pdf</description>
 <port name="|LRS" side="top" coord="-2.54" direction="io"/>
 <port name="|CLR" side="top" coord="0" direction="io"/>
 <port name="GND" side="top" coord="2.54" direction="io"/>
+<port name="CLR" side="top" coord="5.08" direction="io"/>
+<port name="PC_LE" side="top" coord="-12.7" direction="io"/>
+<port name="PC_LRS" side="top" coord="7.62" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -14495,127 +14498,68 @@ Source: ENG_CD_794681_E.pdf</description>
 <net name="8B_8" class="0">
 <segment>
 <label x="63.5" y="205.74" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC4" gate="A" pin="D4"/>
+<wire x1="236.22" y1="172.72" x2="236.22" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="205.74" x2="93.98" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="205.74" y="205.74" size="1.778" layer="95" rot="R180"/>
-<wire x1="205.74" y1="205.74" x2="236.22" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="8B_7" class="0">
-<segment>
-<label x="63.5" y="203.2" size="1.778" layer="95" rot="R180"/>
-<wire x1="63.5" y1="203.2" x2="96.52" y2="203.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="205.74" y="203.2" size="1.778" layer="95" rot="R180"/>
-<wire x1="205.74" y1="203.2" x2="238.76" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="205.74" x2="236.22" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="D4"/>
+<wire x1="93.98" y1="172.72" x2="93.98" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="8B_6" class="0">
 <segment>
 <label x="63.5" y="200.66" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC4" gate="A" pin="D2"/>
+<wire x1="241.3" y1="200.66" x2="241.3" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="200.66" x2="99.06" y2="200.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="205.74" y="200.66" size="1.778" layer="95" rot="R180"/>
-<wire x1="205.74" y1="200.66" x2="241.3" y2="200.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="8B_5" class="0">
-<segment>
-<label x="63.5" y="198.12" size="1.778" layer="95" rot="R180"/>
-<wire x1="63.5" y1="198.12" x2="101.6" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="205.74" y="198.12" size="1.778" layer="95" rot="R180"/>
-<wire x1="205.74" y1="198.12" x2="243.84" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="D2"/>
+<wire x1="99.06" y1="200.66" x2="241.3" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="200.66" x2="99.06" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="8B_4" class="0">
 <segment>
 <label x="63.5" y="195.58" size="1.778" layer="95" rot="R180"/>
-<wire x1="63.5" y1="195.58" x2="132.08" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="D4"/>
-<wire x1="132.08" y1="195.58" x2="132.08" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="205.74" y="195.58" size="1.778" layer="95" rot="R180"/>
-<wire x1="205.74" y1="195.58" x2="274.32" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="A" pin="D4"/>
 <wire x1="274.32" y1="195.58" x2="274.32" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="195.58" x2="132.08" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="D4"/>
+<wire x1="132.08" y1="195.58" x2="274.32" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="195.58" x2="132.08" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="8B_3" class="0">
 <segment>
-<label x="63.5" y="193.04" size="1.778" layer="95" rot="R180"/>
-<wire x1="63.5" y1="193.04" x2="134.62" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="D3"/>
-<wire x1="134.62" y1="187.96" x2="134.62" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="193.04" x2="134.62" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="205.74" y="193.04" size="1.778" layer="95" rot="R180"/>
-<wire x1="205.74" y1="193.04" x2="276.86" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="A" pin="D3"/>
-<wire x1="276.86" y1="187.96" x2="276.86" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="193.04" x2="276.86" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="193.04" x2="276.86" y2="172.72" width="0.1524" layer="91"/>
+<label x="63.5" y="193.04" size="1.778" layer="95" rot="R180"/>
+<wire x1="276.86" y1="193.04" x2="137.16" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="D3"/>
+<wire x1="134.62" y1="193.04" x2="63.5" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="172.72" x2="134.62" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="193.04" x2="137.16" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="8B_2" class="0">
 <segment>
 <label x="63.5" y="190.5" size="1.778" layer="95" rot="R180"/>
-<wire x1="63.5" y1="190.5" x2="137.16" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="D2"/>
-<wire x1="137.16" y1="190.5" x2="137.16" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="205.74" y="190.5" size="1.778" layer="95" rot="R180"/>
-<wire x1="205.74" y1="190.5" x2="279.4" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="A" pin="D2"/>
 <wire x1="279.4" y1="190.5" x2="279.4" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="190.5" x2="137.16" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="D2"/>
+<wire x1="137.16" y1="190.5" x2="279.4" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="190.5" x2="137.16" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="8B_1" class="0">
 <segment>
-<label x="63.5" y="187.96" size="1.778" layer="95" rot="R180"/>
-<wire x1="63.5" y1="187.96" x2="109.22" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="D1"/>
-<wire x1="109.22" y1="187.96" x2="111.76" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="187.96" x2="139.7" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="187.96" x2="139.7" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="205.74" y="187.96" size="1.778" layer="95" rot="R180"/>
-<wire x1="205.74" y1="187.96" x2="251.46" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="A" pin="D1"/>
-<wire x1="251.46" y1="187.96" x2="254" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="187.96" x2="281.94" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="254" y1="187.96" x2="281.94" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="8B_9" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="D4"/>
-<wire x1="93.98" y1="172.72" x2="93.98" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="8B_10" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="D3"/>
-<wire x1="96.52" y1="203.2" x2="96.52" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="8B_11" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="D2"/>
-<wire x1="99.06" y1="200.66" x2="99.06" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="8B_12" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="D1"/>
-<wire x1="101.6" y1="198.12" x2="101.6" y2="172.72" width="0.1524" layer="91"/>
+<label x="63.5" y="187.96" size="1.778" layer="95" rot="R180"/>
+<wire x1="281.94" y1="187.96" x2="139.7" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="D1"/>
+<wire x1="139.7" y1="187.96" x2="63.5" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="172.72" x2="139.7" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CLR" class="0">
@@ -14640,28 +14584,27 @@ Source: ENG_CD_794681_E.pdf</description>
 <pinref part="IC5" gate="A" pin="CLR"/>
 </segment>
 </net>
-<net name="8B_13" class="0">
-<segment>
-<pinref part="IC4" gate="A" pin="D4"/>
-<wire x1="236.22" y1="172.72" x2="236.22" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="8B_14" class="0">
-<segment>
-<pinref part="IC4" gate="A" pin="D3"/>
-<wire x1="238.76" y1="203.2" x2="238.76" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="8B_15" class="0">
-<segment>
-<pinref part="IC4" gate="A" pin="D2"/>
-<wire x1="241.3" y1="200.66" x2="241.3" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="8B_16" class="0">
+<net name="8B_5" class="0">
 <segment>
 <pinref part="IC4" gate="A" pin="D1"/>
 <wire x1="243.84" y1="198.12" x2="243.84" y2="172.72" width="0.1524" layer="91"/>
+<label x="63.5" y="198.12" size="1.778" layer="95" rot="R180"/>
+<wire x1="243.84" y1="198.12" x2="104.14" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="D1"/>
+<wire x1="101.6" y1="198.12" x2="63.5" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="172.72" x2="101.6" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="198.12" x2="104.14" y2="198.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="8B_7" class="0">
+<segment>
+<pinref part="IC4" gate="A" pin="D3"/>
+<wire x1="238.76" y1="203.2" x2="238.76" y2="172.72" width="0.1524" layer="91"/>
+<label x="63.5" y="203.2" size="1.778" layer="95" rot="R180"/>
+<wire x1="238.76" y1="203.2" x2="96.52" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="D3"/>
+<wire x1="96.52" y1="203.2" x2="63.5" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="203.2" x2="96.52" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -19034,11 +18977,11 @@ Source: ENG_CD_794681_E.pdf</description>
 <moduleinst name="INST_REGISTER1" module="INST_REGISTER" x="-124.46" y="147.32">
 <attribute name="NAME" x="-124.46" y="147.32" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="PROGRAM-COUNTER1" module="PROGRAM-COUNTER" x="-172.72" y="121.92">
-<attribute name="NAME" x="-172.72" y="121.92" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
 <moduleinst name="RAM1" module="RAM" x="-119.38" y="114.3">
 <attribute name="NAME" x="-119.38" y="114.3" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="PROGRAM-COUNTER1" module="PROGRAM-COUNTER" x="-182.88" y="104.14">
+<attribute name="NAME" x="-182.88" y="104.14" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
