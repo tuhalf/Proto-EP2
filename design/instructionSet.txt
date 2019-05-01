@@ -1,0 +1,26 @@
+ I : Instruction 
+{ }: Register 
+[ ]: Adress
+( ): Condition - Based on registers A and B, takes parameters > or =
+______________________________________________________________________
+ADD
+	Add two numbers that are in A and B registers and store it in ALU
+
+SUB - Subtract
+	Subtract A from B and store in ALU 
+
+LOAD {X} 
+	Load data from next adress to X register 
+
+STORE {X} [Y]
+	Store data form register X to Y adress in RAM // works only with A register and ALU 
+
+LWJ {X} [Y] - Load With Jump
+	Load data from Y adress to X register
+
+JUMP [X]
+	Jump to X adress in RAM
+
+CJ (X) [Y] - Conditional Jump
+	If X condition is TRUE, jump to Y adress in RAM
+
