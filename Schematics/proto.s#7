@@ -10593,6 +10593,15 @@ Based on the following sources:
 <pin name="I" x="-10.16" y="0" visible="pad" length="middle" direction="in"/>
 <pin name="O" x="10.16" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
 </symbol>
+<symbol name="7409" urn="urn:adsk.eagle:symbol:1811/1" library_version="3">
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94" curve="-180"/>
+<text x="2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="I0" x="-7.62" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="I1" x="-7.62" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="O" x="7.62" y="0" visible="pad" length="middle" direction="oc" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="74*47" urn="urn:adsk.eagle:component:2111/2" prefix="IC" library_version="3">
@@ -11354,6 +11363,94 @@ Source: http://www.ee.washington.edu/stores/DataSheets/74ls/74ls47.pdf</descript
 <technology name="HCT"/>
 <technology name="LS"/>
 <technology name="S"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*09" urn="urn:adsk.eagle:component:2201/2" prefix="IC" library_version="3">
+<description>Quad 2-input &lt;b&gt;AND&lt;/b&gt; gate, open collector</description>
+<gates>
+<gate name="A" symbol="7409" x="15.24" y="7.62" swaplevel="1"/>
+<gate name="B" symbol="7409" x="15.24" y="-7.62" swaplevel="1"/>
+<gate name="C" symbol="7409" x="40.64" y="7.62" swaplevel="1"/>
+<gate name="D" symbol="7409" x="40.64" y="-7.62" swaplevel="1"/>
+<gate name="P" symbol="PWRN" x="-5.08" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="N" package="DIL14">
+<connects>
+<connect gate="A" pin="I0" pad="1"/>
+<connect gate="A" pin="I1" pad="2"/>
+<connect gate="A" pin="O" pad="3"/>
+<connect gate="B" pin="I0" pad="4"/>
+<connect gate="B" pin="I1" pad="5"/>
+<connect gate="B" pin="O" pad="6"/>
+<connect gate="C" pin="I0" pad="9"/>
+<connect gate="C" pin="I1" pad="10"/>
+<connect gate="C" pin="O" pad="8"/>
+<connect gate="D" pin="I0" pad="12"/>
+<connect gate="D" pin="I1" pad="13"/>
+<connect gate="D" pin="O" pad="11"/>
+<connect gate="P" pin="GND" pad="7"/>
+<connect gate="P" pin="VCC" pad="14"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16407/2"/>
+</package3dinstances>
+<technologies>
+<technology name="ALS"/>
+<technology name="LS"/>
+<technology name="S"/>
+</technologies>
+</device>
+<device name="D" package="SO14">
+<connects>
+<connect gate="A" pin="I0" pad="1"/>
+<connect gate="A" pin="I1" pad="2"/>
+<connect gate="A" pin="O" pad="3"/>
+<connect gate="B" pin="I0" pad="4"/>
+<connect gate="B" pin="I1" pad="5"/>
+<connect gate="B" pin="O" pad="6"/>
+<connect gate="C" pin="I0" pad="9"/>
+<connect gate="C" pin="I1" pad="10"/>
+<connect gate="C" pin="O" pad="8"/>
+<connect gate="D" pin="I0" pad="12"/>
+<connect gate="D" pin="I1" pad="13"/>
+<connect gate="D" pin="O" pad="11"/>
+<connect gate="P" pin="GND" pad="7"/>
+<connect gate="P" pin="VCC" pad="14"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1010/2"/>
+</package3dinstances>
+<technologies>
+<technology name="ALS"/>
+<technology name="LS"/>
+<technology name="S"/>
+</technologies>
+</device>
+<device name="FK" package="LCC20">
+<connects>
+<connect gate="A" pin="I0" pad="2"/>
+<connect gate="A" pin="I1" pad="3"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="B" pin="I0" pad="6"/>
+<connect gate="B" pin="I1" pad="8"/>
+<connect gate="B" pin="O" pad="9"/>
+<connect gate="C" pin="I0" pad="13"/>
+<connect gate="C" pin="I1" pad="14"/>
+<connect gate="C" pin="O" pad="12"/>
+<connect gate="D" pin="I0" pad="18"/>
+<connect gate="D" pin="I1" pad="19"/>
+<connect gate="D" pin="O" pad="16"/>
+<connect gate="P" pin="GND" pad="10"/>
+<connect gate="P" pin="VCC" pad="20"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2012/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -18366,8 +18463,30 @@ Source: ENG_CD_794681_E.pdf</description>
 </sheet>
 </sheets>
 </module>
-<module name="INST_REGISTER" prefix="" dx="30.48" dy="20.32">
+<module name="INST_REGISTER" prefix="" dx="30.48" dy="38.1">
 <ports>
+<port name="CLK" side="top" coord="-10.16" direction="io"/>
+<port name="CLR" side="top" coord="-7.62" direction="io"/>
+<port name="GND" side="top" coord="-5.08" direction="io"/>
+<port name="8B_1" side="left" coord="15.24" direction="io"/>
+<port name="8B_2" side="left" coord="12.7" direction="io"/>
+<port name="8B_3" side="left" coord="10.16" direction="io"/>
+<port name="8B_4" side="left" coord="7.62" direction="io"/>
+<port name="8B_5" side="left" coord="5.08" direction="io"/>
+<port name="8B_6" side="left" coord="2.54" direction="io"/>
+<port name="8B_7" side="left" coord="0" direction="io"/>
+<port name="8B_8" side="left" coord="-2.54" direction="io"/>
+<port name="|INSTREAD" side="left" coord="-7.62" direction="io"/>
+<port name="INST_2" side="right" coord="15.24" direction="io"/>
+<port name="INST_3" side="right" coord="12.7" direction="io"/>
+<port name="INST_4" side="right" coord="10.16" direction="io"/>
+<port name="INST_5" side="right" coord="7.62" direction="io"/>
+<port name="INST_6" side="right" coord="5.08" direction="io"/>
+<port name="INST_7" side="right" coord="2.54" direction="io"/>
+<port name="INST_8" side="right" coord="0" direction="io"/>
+<port name="|AREAD" side="right" coord="-7.62" direction="io"/>
+<port name="|BREAD" side="right" coord="-10.16" direction="io"/>
+<port name="|REG_READ" side="left" coord="-10.16" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -18385,6 +18504,8 @@ Source: ENG_CD_794681_E.pdf</description>
 <part name="IC3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*173" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="HC"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="IC1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*09" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="ALS"/>
+<part name="IC4" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="AC"/>
 </parts>
 <sheets>
 <sheet>
@@ -18439,6 +18560,18 @@ Source: ENG_CD_794681_E.pdf</description>
 </instance>
 <instance part="GND2" gate="1" x="144.78" y="142.24" smashed="yes" rot="R180">
 <attribute name="VALUE" x="147.32" y="144.78" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IC1" gate="A" x="177.8" y="30.48" smashed="yes">
+<attribute name="NAME" x="180.34" y="33.655" size="1.778" layer="95"/>
+<attribute name="VALUE" x="180.34" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="IC1" gate="B" x="177.8" y="17.78" smashed="yes">
+<attribute name="NAME" x="180.34" y="20.955" size="1.778" layer="95"/>
+<attribute name="VALUE" x="180.34" y="12.7" size="1.778" layer="96"/>
+</instance>
+<instance part="IC4" gate="A" x="147.32" y="33.02" smashed="yes">
+<attribute name="NAME" x="149.86" y="36.195" size="1.778" layer="95"/>
+<attribute name="VALUE" x="149.86" y="27.94" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -18544,7 +18677,7 @@ Source: ENG_CD_794681_E.pdf</description>
 <wire x1="160.02" y1="91.44" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="INST_1" class="0">
+<net name="SLC_REG" class="0">
 <segment>
 <wire x1="99.06" y1="93.98" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
@@ -18556,6 +18689,16 @@ Source: ENG_CD_794681_E.pdf</description>
 <pinref part="IC3" gate="A" pin="Q1"/>
 <wire x1="162.56" y1="109.22" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="B" pin="I0"/>
+<wire x1="170.18" y1="20.32" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
+<label x="167.64" y="20.32" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="A" pin="I"/>
+<wire x1="137.16" y1="33.02" x2="134.62" y2="33.02" width="0.1524" layer="91"/>
+<label x="134.62" y="33.02" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -18724,12 +18867,72 @@ Source: ENG_CD_794681_E.pdf</description>
 <pinref part="IC3" gate="A" pin="G2"/>
 </segment>
 </net>
+<net name="|REG_READ" class="0">
+<segment>
+<pinref part="IC1" gate="B" pin="I1"/>
+<wire x1="170.18" y1="15.24" x2="167.64" y2="15.24" width="0.1524" layer="91"/>
+<label x="167.64" y="15.24" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="A" pin="I1"/>
+<wire x1="170.18" y1="27.94" x2="167.64" y2="27.94" width="0.1524" layer="91"/>
+<label x="167.64" y="27.94" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="I0"/>
+<pinref part="IC4" gate="A" pin="O"/>
+<wire x1="170.18" y1="33.02" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="|AREAD" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="O"/>
+<wire x1="185.42" y1="30.48" x2="187.96" y2="30.48" width="0.1524" layer="91"/>
+<label x="187.96" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="|BREAD" class="0">
+<segment>
+<pinref part="IC1" gate="B" pin="O"/>
+<wire x1="185.42" y1="17.78" x2="187.96" y2="17.78" width="0.1524" layer="91"/>
+<label x="187.96" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </module>
-<module name="CONTROL_LOGIC" prefix="" dx="30.48" dy="20.32">
+<module name="CONTROL_LOGIC" prefix="" dx="30.48" dy="45.72">
 <ports>
+<port name="CLK" side="top" coord="-10.16" direction="io"/>
+<port name="INST_3" side="left" coord="17.78" direction="io"/>
+<port name="INST_4" side="left" coord="15.24" direction="io"/>
+<port name="INST_6" side="left" coord="10.16" direction="io"/>
+<port name="INST_5" side="left" coord="12.7" direction="io"/>
+<port name="INST_7" side="left" coord="7.62" direction="io"/>
+<port name="INST_8" side="left" coord="5.08" direction="io"/>
+<port name="CF" side="left" coord="-2.54" direction="io"/>
+<port name="ZF" side="left" coord="-5.08" direction="io"/>
+<port name="GND" side="top" coord="-7.62" direction="io"/>
+<port name="VCC" side="top" coord="-5.08" direction="io"/>
+<port name="HLT" side="right" coord="17.78" direction="io"/>
+<port name="|REG_READ" side="right" coord="15.24" direction="io"/>
+<port name="|AWRITE" side="right" coord="12.7" direction="io"/>
+<port name="|FL" side="right" coord="10.16" direction="io"/>
+<port name="|ALUWRITE" side="right" coord="7.62" direction="io"/>
+<port name="ALUSUB" side="right" coord="5.08" direction="io"/>
+<port name="PC_LE" side="right" coord="2.54" direction="io"/>
+<port name="PC_LRS" side="right" coord="0" direction="io"/>
+<port name="RAM_LRS" side="right" coord="-2.54" direction="io"/>
+<port name="SLC_ADDR" side="right" coord="-5.08" direction="io"/>
+<port name="|RAM_OUT" side="right" coord="-7.62" direction="io"/>
+<port name="WIRR" side="right" coord="-10.16" direction="io"/>
+<port name="|INSTREAD" side="right" coord="-15.24" direction="io"/>
+<port name="COUNT" side="right" coord="-12.7" direction="io"/>
+<port name="CLR" side="right" coord="-20.32" direction="io"/>
+<port name="|CLR" side="right" coord="-22.86" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -19166,7 +19369,7 @@ Source: ENG_CD_794681_E.pdf</description>
 <wire x1="-76.2" y1="66.04" x2="-45.72" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ZF" class="0">
+<net name="INST_7" class="0">
 <segment>
 <label x="-60.96" y="111.76" size="1.778" layer="95" rot="R180"/>
 <wire x1="-60.96" y1="111.76" x2="76.2" y2="111.76" width="0.1524" layer="91"/>
@@ -19226,7 +19429,7 @@ Source: ENG_CD_794681_E.pdf</description>
 <wire x1="86.36" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="INST_2" class="0">
+<net name="CF" class="0">
 <segment>
 <label x="-60.96" y="124.46" size="1.778" layer="95" rot="R180"/>
 <pinref part="IC1" gate="A" pin="A1"/>
@@ -19238,7 +19441,7 @@ Source: ENG_CD_794681_E.pdf</description>
 <wire x1="88.9" y1="40.64" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="INST_1" class="0">
+<net name="ZF" class="0">
 <segment>
 <label x="-60.96" y="127" size="1.778" layer="95" rot="R180"/>
 <wire x1="-60.96" y1="127" x2="91.44" y2="127" width="0.1524" layer="91"/>
@@ -19250,7 +19453,7 @@ Source: ENG_CD_794681_E.pdf</description>
 <wire x1="91.44" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CF" class="0">
+<net name="INST_8" class="0">
 <segment>
 <label x="-60.96" y="109.22" size="1.778" layer="95" rot="R180"/>
 <wire x1="73.66" y1="73.66" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
@@ -19313,7 +19516,7 @@ Source: ENG_CD_794681_E.pdf</description>
 <wire x1="139.7" y1="99.06" x2="198.12" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="|AREAD" class="0">
+<net name="|REG_READ" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="D1"/>
 <wire x1="119.38" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
@@ -19332,16 +19535,6 @@ Source: ENG_CD_794681_E.pdf</description>
 <wire x1="175.26" y1="86.36" x2="175.26" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="LED14" gate="G$1" pin="A"/>
 <wire x1="175.26" y1="88.9" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="|BREAD" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="D3"/>
-<wire x1="119.38" y1="83.82" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
-<label x="149.86" y="83.82" size="1.778" layer="95"/>
-<pinref part="LED5" gate="G$1" pin="A"/>
-<wire x1="147.32" y1="83.82" x2="149.86" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="83.82" x2="149.86" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="|ALUWRITE" class="0">
@@ -19439,12 +19632,12 @@ Source: ENG_CD_794681_E.pdf</description>
 </net>
 <net name="|FL" class="0">
 <segment>
-<pinref part="IC2" gate="A" pin="D6"/>
-<wire x1="119.38" y1="27.94" x2="195.58" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="27.94" x2="195.58" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="LED7" gate="G$1" pin="A"/>
-<wire x1="195.58" y1="22.86" x2="198.12" y2="22.86" width="0.1524" layer="91"/>
-<label x="149.86" y="27.94" size="1.778" layer="95"/>
+<pinref part="IC1" gate="A" pin="D3"/>
+<wire x1="119.38" y1="83.82" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
+<label x="149.86" y="83.82" size="1.778" layer="95"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
+<wire x1="147.32" y1="83.82" x2="149.86" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="83.82" x2="149.86" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -19469,6 +19662,15 @@ Source: ENG_CD_794681_E.pdf</description>
 <wire x1="170.18" y1="35.56" x2="149.86" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="NNOW" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="D6"/>
+<wire x1="119.38" y1="27.94" x2="195.58" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="27.94" x2="195.58" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="LED7" gate="G$1" pin="A"/>
+<wire x1="195.58" y1="22.86" x2="198.12" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -19490,20 +19692,20 @@ Source: ENG_CD_794681_E.pdf</description>
 <moduleinst name="B_REGISTER1" module="B_REGISTER" x="119.38" y="101.6" rot="MR0">
 <attribute name="NAME" x="119.38" y="104.14" size="2.032" layer="95" rot="MR0" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="CLK1" module="CLK" x="-124.46" y="200.66">
-<attribute name="NAME" x="-106.68" y="195.58" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="CLK1" module="CLK" x="-2.54" y="220.98">
+<attribute name="NAME" x="15.24" y="215.9" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="CONTROL_LOGIC1" module="CONTROL_LOGIC" x="-124.46" y="172.72">
-<attribute name="NAME" x="-124.46" y="172.72" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="CONTROL_LOGIC1" module="CONTROL_LOGIC" x="180.34" y="38.1">
+<attribute name="NAME" x="180.34" y="40.64" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="INST_REGISTER1" module="INST_REGISTER" x="-124.46" y="147.32">
-<attribute name="NAME" x="-124.46" y="147.32" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="INST_REGISTER1" module="INST_REGISTER" x="119.38" y="40.64">
+<attribute name="NAME" x="119.38" y="43.18" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="RAM1" module="RAM" x="-15.24" y="76.2">
-<attribute name="NAME" x="-15.24" y="78.74" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="RAM1" module="RAM" x="0" y="60.96">
+<attribute name="NAME" x="0" y="63.5" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="PROGRAM-COUNTER1" module="PROGRAM-COUNTER" x="-15.24" y="142.24" rot="MR0">
-<attribute name="NAME" x="-15.24" y="144.78" size="2.032" layer="95" rot="MR0" align="bottom-center"/>
+<moduleinst name="PROGRAM-COUNTER1" module="PROGRAM-COUNTER" x="0" y="127" rot="MR0">
+<attribute name="NAME" x="0" y="129.54" size="2.032" layer="95" rot="MR0" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
@@ -19511,6 +19713,34 @@ Source: ENG_CD_794681_E.pdf</description>
 <busses>
 </busses>
 <nets>
+<net name="CLK" class="0">
+<segment>
+<portref moduleinst="CLK1" port="CLK"/>
+<wire x1="17.78" y1="220.98" x2="20.32" y2="220.98" width="0.1524" layer="91"/>
+<label x="20.32" y="220.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<portref moduleinst="CLK1" port="GND"/>
+<wire x1="2.54" y1="236.22" x2="2.54" y2="238.76" width="0.1524" layer="91"/>
+<label x="2.54" y="238.76" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<portref moduleinst="CLK1" port="VCC"/>
+<wire x1="-7.62" y1="236.22" x2="-7.62" y2="238.76" width="0.1524" layer="91"/>
+<label x="-7.62" y="238.76" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="HLT" class="0">
+<segment>
+<portref moduleinst="CLK1" port="HLT"/>
+<wire x1="-22.86" y1="220.98" x2="-25.4" y2="220.98" width="0.1524" layer="91"/>
+<label x="-25.4" y="220.98" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

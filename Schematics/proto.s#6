@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -12959,21 +12959,21 @@ Source: ENG_CD_794681_E.pdf</description>
 <parts>
 <part name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="*555" device="N" technology="LM"/>
 <part name="IC4" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="*555" device="N" technology="LM"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" value="1uf"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" value="0.01uF"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" value="1uf"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" value="0.01uF"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P1" library="docu-dummy" library_urn="urn:adsk.eagle:library:215" deviceset="POT" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" value="0.01uF"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" value="0.1uf"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" value="0.01uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" value="0.1uf"/>
 <part name="S1" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="01" package3d_urn="urn:adsk.eagle:package:27750/1"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="1k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="1k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="1k"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" value="0.01uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" value="0.01uF"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S2" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="320-916" device="" package3d_urn="urn:adsk.eagle:package:27678/1"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="1k"/>
@@ -18463,8 +18463,30 @@ Source: ENG_CD_794681_E.pdf</description>
 </sheet>
 </sheets>
 </module>
-<module name="INST_REGISTER" prefix="" dx="30.48" dy="20.32">
+<module name="INST_REGISTER" prefix="" dx="30.48" dy="38.1">
 <ports>
+<port name="CLK" side="top" coord="-10.16" direction="io"/>
+<port name="CLR" side="top" coord="-7.62" direction="io"/>
+<port name="GND" side="top" coord="-5.08" direction="io"/>
+<port name="8B_1" side="left" coord="15.24" direction="io"/>
+<port name="8B_2" side="left" coord="12.7" direction="io"/>
+<port name="8B_3" side="left" coord="10.16" direction="io"/>
+<port name="8B_4" side="left" coord="7.62" direction="io"/>
+<port name="8B_5" side="left" coord="5.08" direction="io"/>
+<port name="8B_6" side="left" coord="2.54" direction="io"/>
+<port name="8B_7" side="left" coord="0" direction="io"/>
+<port name="8B_8" side="left" coord="-2.54" direction="io"/>
+<port name="|INSTREAD" side="left" coord="-7.62" direction="io"/>
+<port name="INST_2" side="right" coord="15.24" direction="io"/>
+<port name="INST_3" side="right" coord="12.7" direction="io"/>
+<port name="INST_4" side="right" coord="10.16" direction="io"/>
+<port name="INST_5" side="right" coord="7.62" direction="io"/>
+<port name="INST_6" side="right" coord="5.08" direction="io"/>
+<port name="INST_7" side="right" coord="2.54" direction="io"/>
+<port name="INST_8" side="right" coord="0" direction="io"/>
+<port name="|AREAD" side="right" coord="-7.62" direction="io"/>
+<port name="|BREAD" side="right" coord="-10.16" direction="io"/>
+<port name="|REG_READ" side="left" coord="-10.16" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -18882,8 +18904,35 @@ Source: ENG_CD_794681_E.pdf</description>
 </sheet>
 </sheets>
 </module>
-<module name="CONTROL_LOGIC" prefix="" dx="30.48" dy="20.32">
+<module name="CONTROL_LOGIC" prefix="" dx="30.48" dy="45.72">
 <ports>
+<port name="CLK" side="top" coord="-10.16" direction="io"/>
+<port name="INST_3" side="left" coord="17.78" direction="io"/>
+<port name="INST_4" side="left" coord="15.24" direction="io"/>
+<port name="INST_6" side="left" coord="10.16" direction="io"/>
+<port name="INST_5" side="left" coord="12.7" direction="io"/>
+<port name="INST_7" side="left" coord="7.62" direction="io"/>
+<port name="INST_8" side="left" coord="5.08" direction="io"/>
+<port name="CF" side="left" coord="-2.54" direction="io"/>
+<port name="ZF" side="left" coord="-5.08" direction="io"/>
+<port name="GND" side="top" coord="-7.62" direction="io"/>
+<port name="VCC" side="top" coord="-5.08" direction="io"/>
+<port name="HLT" side="right" coord="17.78" direction="io"/>
+<port name="|REG_READ" side="right" coord="15.24" direction="io"/>
+<port name="|AWRITE" side="right" coord="12.7" direction="io"/>
+<port name="|FL" side="right" coord="10.16" direction="io"/>
+<port name="|ALUWRITE" side="right" coord="7.62" direction="io"/>
+<port name="ALUSUB" side="right" coord="5.08" direction="io"/>
+<port name="PC_LE" side="right" coord="2.54" direction="io"/>
+<port name="PC_LRS" side="right" coord="0" direction="io"/>
+<port name="RAM_LRS" side="right" coord="-2.54" direction="io"/>
+<port name="SLC_ADDR" side="right" coord="-5.08" direction="io"/>
+<port name="|RAM_OUT" side="right" coord="-7.62" direction="io"/>
+<port name="WIRR" side="right" coord="-10.16" direction="io"/>
+<port name="|INSTREAD" side="right" coord="-15.24" direction="io"/>
+<port name="COUNT" side="right" coord="-12.7" direction="io"/>
+<port name="CLR" side="right" coord="-20.32" direction="io"/>
+<port name="|CLR" side="right" coord="-22.86" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -19643,20 +19692,20 @@ Source: ENG_CD_794681_E.pdf</description>
 <moduleinst name="B_REGISTER1" module="B_REGISTER" x="119.38" y="101.6" rot="MR0">
 <attribute name="NAME" x="119.38" y="104.14" size="2.032" layer="95" rot="MR0" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="CLK1" module="CLK" x="-17.78" y="236.22">
-<attribute name="NAME" x="0" y="231.14" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="CLK1" module="CLK" x="-2.54" y="220.98">
+<attribute name="NAME" x="15.24" y="215.9" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="CONTROL_LOGIC1" module="CONTROL_LOGIC" x="-124.46" y="172.72">
-<attribute name="NAME" x="-124.46" y="172.72" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="CONTROL_LOGIC1" module="CONTROL_LOGIC" x="180.34" y="38.1">
+<attribute name="NAME" x="180.34" y="40.64" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="INST_REGISTER1" module="INST_REGISTER" x="-15.24" y="35.56">
-<attribute name="NAME" x="-15.24" y="38.1" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="INST_REGISTER1" module="INST_REGISTER" x="119.38" y="40.64">
+<attribute name="NAME" x="119.38" y="43.18" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="RAM1" module="RAM" x="-15.24" y="76.2">
-<attribute name="NAME" x="-15.24" y="78.74" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="RAM1" module="RAM" x="0" y="60.96">
+<attribute name="NAME" x="0" y="63.5" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="PROGRAM-COUNTER1" module="PROGRAM-COUNTER" x="-15.24" y="142.24" rot="MR0">
-<attribute name="NAME" x="-15.24" y="144.78" size="2.032" layer="95" rot="MR0" align="bottom-center"/>
+<moduleinst name="PROGRAM-COUNTER1" module="PROGRAM-COUNTER" x="0" y="127" rot="MR0">
+<attribute name="NAME" x="0" y="129.54" size="2.032" layer="95" rot="MR0" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
@@ -19664,6 +19713,34 @@ Source: ENG_CD_794681_E.pdf</description>
 <busses>
 </busses>
 <nets>
+<net name="CLK" class="0">
+<segment>
+<portref moduleinst="CLK1" port="CLK"/>
+<wire x1="17.78" y1="220.98" x2="20.32" y2="220.98" width="0.1524" layer="91"/>
+<label x="20.32" y="220.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<portref moduleinst="CLK1" port="GND"/>
+<wire x1="2.54" y1="236.22" x2="2.54" y2="238.76" width="0.1524" layer="91"/>
+<label x="2.54" y="238.76" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<portref moduleinst="CLK1" port="VCC"/>
+<wire x1="-7.62" y1="236.22" x2="-7.62" y2="238.76" width="0.1524" layer="91"/>
+<label x="-7.62" y="238.76" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="HLT" class="0">
+<segment>
+<portref moduleinst="CLK1" port="HLT"/>
+<wire x1="-22.86" y1="220.98" x2="-25.4" y2="220.98" width="0.1524" layer="91"/>
+<label x="-25.4" y="220.98" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
