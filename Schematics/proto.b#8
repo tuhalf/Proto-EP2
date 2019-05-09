@@ -6514,9 +6514,6 @@ design rules under a new name.</description>
 <contactref element="CLK1:R13" pad="2"/>
 <wire x1="6.35" y1="402.844" x2="67.564" y2="395.224" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="RAM1:N$105">
-<contactref element="RAM1:JP7" pad="1"/>
-</signal>
 <signal name="RAM1:N$25">
 <contactref element="RAM1:JP6" pad="1"/>
 <contactref element="RAM1:IC5" pad="6"/>
@@ -6526,6 +6523,9 @@ design rules under a new name.</description>
 <contactref element="RAM1:JP8" pad="1"/>
 <contactref element="RAM1:IC5" pad="13"/>
 <wire x1="102.108" y1="242.824" x2="70.866" y2="313.182" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RAM1:N$104">
+<contactref element="RAM1:JP7" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

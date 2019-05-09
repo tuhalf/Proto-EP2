@@ -79,7 +79,7 @@
 <wire x1="459.72" y1="40.386" x2="459.212" y2="440.36" width="0" layer="20"/>
 <wire x1="459.212" y1="440.36" x2="-18.542" y2="438.328" width="0" layer="20"/>
 <wire x1="-18.542" y1="438.328" x2="-15.494" y2="38.354" width="0" layer="20"/>
-<text x="53.086" y="377.952" size="1.778" layer="1">Clock/Saat</text>
+<text x="53.086" y="377.952" size="1.778" layer="25">Clock/Saat</text>
 <text x="371.094" y="268.732" size="1.778" layer="1">Program Counter/Program Sayıcı</text>
 <text x="376.428" y="203.962" size="1.778" layer="1">A Register/A Kaydedicisi</text>
 <text x="379.476" y="119.38" size="1.778" layer="1">B Register/B Kaydedicisi</text>

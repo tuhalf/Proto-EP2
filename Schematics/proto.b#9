@@ -3240,9 +3240,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="58.6232" y="314.3758" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="63.627" y="314.452" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RAM1:JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="82.296" y="260.604" smashed="yes" rot="R90">
-<attribute name="NAME" x="80.4672" y="259.2578" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="85.471" y="259.334" size="1.27" layer="27" rot="R90"/>
+<element name="RAM1:JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="86.106" y="255.27" smashed="yes" rot="R90">
+<attribute name="NAME" x="84.2772" y="253.9238" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="89.281" y="254" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="RAM1:JP8" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="102.108" y="242.824" smashed="yes" rot="R90">
 <attribute name="NAME" x="100.2792" y="241.4778" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -5493,11 +5493,6 @@ design rules under a new name.</description>
 <signal name="RAM1:N$26">
 <contactref element="RAM1:IC5" pad="10"/>
 </signal>
-<signal name="RAM1:N$27">
-<contactref element="RAM1:IC5" pad="13"/>
-<contactref element="RAM1:JP8" pad="1"/>
-<wire x1="102.108" y1="242.824" x2="70.866" y2="313.182" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="RAM1:N$28">
 <contactref element="RAM1:IC6" pad="3"/>
 <contactref element="RAM1:JP13" pad="1"/>
@@ -6526,6 +6521,11 @@ design rules under a new name.</description>
 <contactref element="RAM1:JP6" pad="1"/>
 <contactref element="RAM1:IC5" pad="6"/>
 <wire x1="107.188" y1="242.824" x2="63.246" y2="308.102" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RAM1:N$27">
+<contactref element="RAM1:JP8" pad="1"/>
+<contactref element="RAM1:IC5" pad="13"/>
+<wire x1="102.108" y1="242.824" x2="70.866" y2="313.182" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

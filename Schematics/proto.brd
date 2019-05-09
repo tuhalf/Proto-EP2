@@ -75,10 +75,10 @@
 <board>
 <fusionsync huburn="a.cGVyc29uYWw6dWUyYzAxZDJj" projecturn="a.cGVyc29uYWw6dWUyYzAxZDJjIzIwMTkwNTA1MTkyMDg5NTI2" f3durn="urn:adsk.wipprod:dm.lineage:70GWcDjMSPOcQDQjk4DCcg" pcbguid="22574776-4e41-4d66-91ec-4a67a1a4bc81" lastpulledtime="" lastsyncedchangeguid="bd499cde-6b20-ed0b-bac9-61ddcb5f395d"/>
 <plain>
-<wire x1="-15.494" y1="38.354" x2="459.72" y2="40.386" width="0" layer="20"/>
-<wire x1="459.72" y1="40.386" x2="459.212" y2="440.36" width="0" layer="20"/>
-<wire x1="459.212" y1="440.36" x2="-18.542" y2="438.328" width="0" layer="20"/>
-<wire x1="-18.542" y1="438.328" x2="-15.494" y2="38.354" width="0" layer="20"/>
+<wire x1="-23.368" y1="39.37" x2="459.212" y2="38.862" width="0" layer="20"/>
+<wire x1="459.212" y1="38.862" x2="459.212" y2="440.36" width="0" layer="20"/>
+<wire x1="459.212" y1="440.36" x2="-23.368" y2="440.868" width="0" layer="20"/>
+<wire x1="-23.368" y1="440.868" x2="-23.368" y2="39.37" width="0" layer="20"/>
 <text x="53.086" y="377.952" size="1.778" layer="21">Clock/Saat</text>
 <text x="371.094" y="268.732" size="1.778" layer="21">Program Counter/Program Sayıcı</text>
 <text x="376.428" y="203.962" size="1.778" layer="21">A Register/A Kaydedicisi</text>
