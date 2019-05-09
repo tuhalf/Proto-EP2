@@ -19752,29 +19752,45 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </modules>
 <parts>
 <part name="X1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="LED8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <moduleinsts>
-<moduleinst name="ALU1" module="ALU" x="165.1" y="152.4">
-<attribute name="NAME" x="167.64" y="152.4" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="ALU1" module="ALU" x="198.12" y="152.4">
+<attribute name="NAME" x="200.66" y="152.4" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="A_REGISTER1" module="A_REGISTER" x="119.38" y="200.66">
-<attribute name="NAME" x="119.38" y="203.2" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="A_REGISTER1" module="A_REGISTER" x="152.4" y="200.66">
+<attribute name="NAME" x="152.4" y="203.2" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="B_REGISTER1" module="B_REGISTER" x="119.38" y="101.6" rot="MR0">
-<attribute name="NAME" x="119.38" y="104.14" size="2.032" layer="95" rot="MR0" align="bottom-center"/>
+<moduleinst name="B_REGISTER1" module="B_REGISTER" x="152.4" y="101.6" rot="MR0">
+<attribute name="NAME" x="152.4" y="104.14" size="2.032" layer="95" rot="MR0" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="CLK1" module="CLK" x="-2.54" y="220.98">
 <attribute name="NAME" x="15.24" y="215.9" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="CONTROL_LOGIC1" module="CONTROL_LOGIC" x="180.34" y="38.1">
-<attribute name="NAME" x="180.34" y="40.64" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="CONTROL_LOGIC1" module="CONTROL_LOGIC" x="213.36" y="38.1">
+<attribute name="NAME" x="213.36" y="40.64" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="INST_REGISTER1" module="INST_REGISTER" x="119.38" y="43.18">
-<attribute name="NAME" x="119.38" y="45.72" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="INST_REGISTER1" module="INST_REGISTER" x="152.4" y="43.18">
+<attribute name="NAME" x="152.4" y="45.72" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="RAM1" module="RAM" x="0" y="60.96">
 <attribute name="NAME" x="0" y="63.5" size="2.032" layer="95" align="bottom-center"/>
@@ -19790,6 +19806,70 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <instance part="X1" gate="-2" x="-81.28" y="223.52" smashed="yes">
 <attribute name="VALUE" x="-83.82" y="219.837" size="1.778" layer="96"/>
 <attribute name="NAME" x="-81.28" y="224.409" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="R1" gate="G$1" x="63.5" y="203.2" smashed="yes">
+<attribute name="NAME" x="59.69" y="204.6986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="59.69" y="199.898" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="63.5" y="200.66" smashed="yes">
+<attribute name="NAME" x="59.69" y="202.1586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="59.69" y="197.358" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="63.5" y="198.12" smashed="yes">
+<attribute name="NAME" x="59.69" y="199.6186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="59.69" y="194.818" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="63.5" y="195.58" smashed="yes">
+<attribute name="NAME" x="59.69" y="197.0786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="59.69" y="192.278" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="96.52" y="203.2" smashed="yes">
+<attribute name="NAME" x="92.71" y="204.6986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.71" y="199.898" size="1.778" layer="96"/>
+</instance>
+<instance part="R6" gate="G$1" x="96.52" y="200.66" smashed="yes">
+<attribute name="NAME" x="92.71" y="202.1586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.71" y="197.358" size="1.778" layer="96"/>
+</instance>
+<instance part="R7" gate="G$1" x="96.52" y="198.12" smashed="yes">
+<attribute name="NAME" x="92.71" y="199.6186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.71" y="194.818" size="1.778" layer="96"/>
+</instance>
+<instance part="R8" gate="G$1" x="96.52" y="195.58" smashed="yes">
+<attribute name="NAME" x="92.71" y="197.0786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.71" y="192.278" size="1.778" layer="96"/>
+</instance>
+<instance part="LED1" gate="G$1" x="71.12" y="190.5" smashed="yes">
+<attribute name="NAME" x="74.676" y="185.928" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="76.835" y="185.928" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED2" gate="G$1" x="73.66" y="190.5" smashed="yes">
+<attribute name="NAME" x="77.216" y="185.928" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="79.375" y="185.928" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED3" gate="G$1" x="76.2" y="190.5" smashed="yes">
+<attribute name="NAME" x="79.756" y="185.928" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="81.915" y="185.928" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED4" gate="G$1" x="78.74" y="190.5" smashed="yes">
+<attribute name="NAME" x="82.296" y="185.928" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="84.455" y="185.928" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED5" gate="G$1" x="81.28" y="190.5" smashed="yes">
+<attribute name="NAME" x="84.836" y="185.928" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="86.995" y="185.928" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED6" gate="G$1" x="83.82" y="190.5" smashed="yes">
+<attribute name="NAME" x="87.376" y="185.928" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="89.535" y="185.928" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED7" gate="G$1" x="86.36" y="190.5" smashed="yes">
+<attribute name="NAME" x="89.916" y="185.928" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="92.075" y="185.928" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED8" gate="G$1" x="88.9" y="190.5" smashed="yes">
+<attribute name="NAME" x="92.456" y="185.928" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="94.615" y="185.928" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -19807,26 +19887,35 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <label x="7.62" y="160.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="109.22" y1="223.52" x2="109.22" y2="228.6" width="0.1524" layer="91"/>
-<label x="109.22" y="228.6" size="1.778" layer="95" rot="R90"/>
+<wire x1="142.24" y1="223.52" x2="142.24" y2="224.79" width="0.1524" layer="91"/>
+<label x="142.24" y="228.6" size="1.778" layer="95" rot="R90"/>
+<portref moduleinst="A_REGISTER1" port="CLK"/>
+<wire x1="142.24" y1="224.79" x2="142.24" y2="228.6" width="0.1524" layer="91"/>
+<junction x="142.24" y="224.79"/>
 </segment>
 <segment>
 <portref moduleinst="ALU1" port="CLK"/>
-<wire x1="172.72" y1="177.8" x2="172.72" y2="180.34" width="0.1524" layer="91"/>
-<label x="172.72" y="180.34" size="1.778" layer="95" rot="R90"/>
+<wire x1="205.74" y1="177.8" x2="205.74" y2="180.34" width="0.1524" layer="91"/>
+<label x="205.74" y="180.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="109.22" y1="124.46" x2="109.22" y2="129.54" width="0.1524" layer="91"/>
-<label x="109.22" y="129.54" size="1.778" layer="95" rot="R90"/>
+<wire x1="142.24" y1="124.46" x2="142.24" y2="125.73" width="0.1524" layer="91"/>
+<label x="142.24" y="129.54" size="1.778" layer="95" rot="R90"/>
+<portref moduleinst="B_REGISTER1" port="CLK"/>
+<wire x1="142.24" y1="125.73" x2="142.24" y2="129.54" width="0.1524" layer="91"/>
+<junction x="142.24" y="125.73"/>
 </segment>
 <segment>
-<wire x1="109.22" y1="66.04" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
-<label x="109.22" y="68.58" size="1.778" layer="95" rot="R90"/>
+<wire x1="142.24" y1="66.04" x2="142.24" y2="67.31" width="0.1524" layer="91"/>
+<label x="142.24" y="68.58" size="1.778" layer="95" rot="R90"/>
+<portref moduleinst="INST_REGISTER1" port="CLK"/>
+<wire x1="142.24" y1="67.31" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
+<junction x="142.24" y="67.31"/>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="CLK"/>
-<wire x1="170.18" y1="66.04" x2="170.18" y2="68.58" width="0.1524" layer="91"/>
-<label x="170.18" y="68.58" size="1.778" layer="95" rot="R90"/>
+<wire x1="203.2" y1="66.04" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
+<label x="203.2" y="68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -19845,31 +19934,83 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <label x="-5.08" y="91.44" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="114.3" y1="223.52" x2="114.3" y2="228.6" width="0.1524" layer="91"/>
-<label x="114.3" y="228.6" size="1.778" layer="95" rot="R90"/>
+<wire x1="147.32" y1="223.52" x2="147.32" y2="224.79" width="0.1524" layer="91"/>
+<label x="147.32" y="228.6" size="1.778" layer="95" rot="R90"/>
+<portref moduleinst="A_REGISTER1" port="GND"/>
+<wire x1="147.32" y1="224.79" x2="147.32" y2="228.6" width="0.1524" layer="91"/>
+<junction x="147.32" y="224.79"/>
 </segment>
 <segment>
 <portref moduleinst="ALU1" port="GND"/>
-<wire x1="177.8" y1="177.8" x2="177.8" y2="180.34" width="0.1524" layer="91"/>
-<label x="177.8" y="180.34" size="1.778" layer="95" rot="R90"/>
+<wire x1="210.82" y1="177.8" x2="210.82" y2="180.34" width="0.1524" layer="91"/>
+<label x="210.82" y="180.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="114.3" y1="124.46" x2="114.3" y2="129.54" width="0.1524" layer="91"/>
-<label x="114.3" y="129.54" size="1.778" layer="95" rot="R90"/>
+<wire x1="147.32" y1="124.46" x2="147.32" y2="125.73" width="0.1524" layer="91"/>
+<label x="147.32" y="129.54" size="1.778" layer="95" rot="R90"/>
+<portref moduleinst="B_REGISTER1" port="GND"/>
+<wire x1="147.32" y1="125.73" x2="147.32" y2="129.54" width="0.1524" layer="91"/>
+<junction x="147.32" y="125.73"/>
 </segment>
 <segment>
-<wire x1="114.3" y1="66.04" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
-<label x="114.3" y="68.58" size="1.778" layer="95" rot="R90"/>
+<wire x1="147.32" y1="66.04" x2="147.32" y2="67.31" width="0.1524" layer="91"/>
+<label x="147.32" y="68.58" size="1.778" layer="95" rot="R90"/>
+<portref moduleinst="INST_REGISTER1" port="GND"/>
+<wire x1="147.32" y1="67.31" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
+<junction x="147.32" y="67.31"/>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="GND"/>
-<wire x1="172.72" y1="66.04" x2="172.72" y2="68.58" width="0.1524" layer="91"/>
-<label x="172.72" y="68.58" size="1.778" layer="95" rot="R90"/>
+<wire x1="205.74" y1="66.04" x2="205.74" y2="68.58" width="0.1524" layer="91"/>
+<label x="205.74" y="68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-2" pin="KL"/>
 <wire x1="-76.2" y1="223.52" x2="-71.12" y2="223.52" width="0.1524" layer="91"/>
 <label x="-71.12" y="223.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="104.14" y="208.28" size="1.778" layer="95" rot="R90"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="195.58" x2="101.6" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="198.12" x2="101.6" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="200.66" x2="101.6" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="203.2" x2="104.14" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="203.2" x2="104.14" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="55.88" y="210.82" size="1.778" layer="95" rot="R90"/>
+<wire x1="55.88" y1="210.82" x2="55.88" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="203.2" x2="58.42" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="203.2" x2="58.42" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="200.66" x2="58.42" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="198.12" x2="58.42" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="81.28" y="175.26" size="1.778" layer="95" rot="R270"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<wire x1="71.12" y1="185.42" x2="73.66" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="73.66" y1="185.42" x2="76.2" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
+<wire x1="76.2" y1="185.42" x2="78.74" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="LED5" gate="G$1" pin="C"/>
+<wire x1="78.74" y1="185.42" x2="81.28" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
+<wire x1="81.28" y1="185.42" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="LED7" gate="G$1" pin="C"/>
+<wire x1="83.82" y1="185.42" x2="86.36" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="LED8" gate="G$1" pin="C"/>
+<wire x1="88.9" y1="185.42" x2="86.36" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="185.42" x2="81.28" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -19883,18 +20024,21 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <label x="-2.54" y="91.44" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="223.52" x2="116.84" y2="228.6" width="0.1524" layer="91"/>
-<label x="116.84" y="228.6" size="1.778" layer="95" rot="R90"/>
+<wire x1="149.86" y1="223.52" x2="149.86" y2="224.79" width="0.1524" layer="91"/>
+<label x="149.86" y="228.6" size="1.778" layer="95" rot="R90"/>
+<portref moduleinst="A_REGISTER1" port="VCC"/>
+<wire x1="149.86" y1="224.79" x2="149.86" y2="228.6" width="0.1524" layer="91"/>
+<junction x="149.86" y="224.79"/>
 </segment>
 <segment>
 <portref moduleinst="ALU1" port="VCC"/>
-<wire x1="180.34" y1="177.8" x2="180.34" y2="180.34" width="0.1524" layer="91"/>
-<label x="180.34" y="180.34" size="1.778" layer="95" rot="R90"/>
+<wire x1="213.36" y1="177.8" x2="213.36" y2="180.34" width="0.1524" layer="91"/>
+<label x="213.36" y="180.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="VCC"/>
-<wire x1="175.26" y1="66.04" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
-<label x="175.26" y="68.58" size="1.778" layer="95" rot="R90"/>
+<wire x1="208.28" y1="66.04" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
+<label x="208.28" y="68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-1" pin="KL"/>
@@ -19910,8 +20054,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="HLT"/>
-<wire x1="200.66" y1="55.88" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
-<label x="203.2" y="55.88" size="1.778" layer="95"/>
+<wire x1="233.68" y1="55.88" x2="236.22" y2="55.88" width="0.1524" layer="91"/>
+<label x="236.22" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -20061,168 +20205,168 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <segment>
 <portref moduleinst="A_REGISTER1" port="A_1"/>
 <portref moduleinst="ALU1" port="A_1"/>
-<wire x1="139.7" y1="215.9" x2="149.86" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="215.9" x2="149.86" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="215.9" x2="182.88" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="215.9" x2="182.88" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <portref moduleinst="A_REGISTER1" port="A_2"/>
 <portref moduleinst="ALU1" port="A_2"/>
-<wire x1="139.7" y1="213.36" x2="152.4" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="213.36" x2="152.4" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="213.36" x2="185.42" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="213.36" x2="185.42" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <portref moduleinst="A_REGISTER1" port="A_3"/>
-<wire x1="139.7" y1="210.82" x2="154.94" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="210.82" x2="187.96" y2="210.82" width="0.1524" layer="91"/>
 <portref moduleinst="ALU1" port="A_3"/>
-<wire x1="154.94" y1="210.82" x2="154.94" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="210.82" x2="187.96" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <portref moduleinst="ALU1" port="A_4"/>
-<wire x1="157.48" y1="177.8" x2="157.48" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="177.8" x2="190.5" y2="205.74" width="0.1524" layer="91"/>
 <portref moduleinst="A_REGISTER1" port="A_4"/>
-<wire x1="157.48" y1="205.74" x2="157.48" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="208.28" x2="139.7" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="205.74" x2="190.5" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="208.28" x2="172.72" y2="208.28" width="0.1524" layer="91"/>
 <portref moduleinst="A_REGISTER1" port="A_5"/>
-<wire x1="139.7" y1="205.74" x2="157.48" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="205.74" x2="190.5" y2="205.74" width="0.1524" layer="91"/>
 <portref moduleinst="ALU1" port="A_5"/>
-<wire x1="157.48" y1="205.74" x2="160.02" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="205.74" x2="160.02" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="205.74" x2="193.04" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="205.74" x2="193.04" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <portref moduleinst="ALU1" port="A_6"/>
 <portref moduleinst="A_REGISTER1" port="A_6"/>
-<wire x1="162.56" y1="177.8" x2="162.56" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="203.2" x2="139.7" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="177.8" x2="195.58" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="203.2" x2="172.72" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <portref moduleinst="A_REGISTER1" port="A_7"/>
-<wire x1="139.7" y1="200.66" x2="165.1" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="200.66" x2="198.12" y2="200.66" width="0.1524" layer="91"/>
 <portref moduleinst="ALU1" port="A_7"/>
-<wire x1="165.1" y1="200.66" x2="165.1" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="200.66" x2="198.12" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <portref moduleinst="ALU1" port="A_8"/>
-<wire x1="167.64" y1="177.8" x2="167.64" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="177.8" x2="200.66" y2="198.12" width="0.1524" layer="91"/>
 <portref moduleinst="A_REGISTER1" port="A_8"/>
-<wire x1="167.64" y1="198.12" x2="139.7" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="198.12" x2="172.72" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <portref moduleinst="B_REGISTER1" port="B_1"/>
 <portref moduleinst="ALU1" port="B_1"/>
-<wire x1="139.7" y1="116.84" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="116.84" x2="149.86" y2="127" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="116.84" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="116.84" x2="182.88" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <portref moduleinst="ALU1" port="B_2"/>
 <portref moduleinst="B_REGISTER1" port="B_2"/>
-<wire x1="152.4" y1="127" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="114.3" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="127" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <portref moduleinst="B_REGISTER1" port="B_3"/>
 <portref moduleinst="ALU1" port="B_3"/>
-<wire x1="139.7" y1="111.76" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="111.76" x2="154.94" y2="127" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="111.76" x2="187.96" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <portref moduleinst="ALU1" port="B_4"/>
 <portref moduleinst="B_REGISTER1" port="B_4"/>
-<wire x1="157.48" y1="127" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="109.22" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="127" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="109.22" x2="172.72" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <portref moduleinst="B_REGISTER1" port="B_5"/>
 <portref moduleinst="ALU1" port="B_5"/>
-<wire x1="139.7" y1="106.68" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="106.68" x2="160.02" y2="127" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="106.68" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="106.68" x2="193.04" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <portref moduleinst="ALU1" port="B_6"/>
 <portref moduleinst="B_REGISTER1" port="B_6"/>
-<wire x1="162.56" y1="127" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="104.14" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="127" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="104.14" x2="172.72" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <portref moduleinst="B_REGISTER1" port="B_7"/>
 <portref moduleinst="ALU1" port="B_7"/>
-<wire x1="139.7" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="101.6" x2="165.1" y2="127" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="101.6" x2="198.12" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
 <portref moduleinst="ALU1" port="B_8"/>
 <portref moduleinst="B_REGISTER1" port="B_8"/>
-<wire x1="167.64" y1="127" x2="167.64" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="99.06" x2="139.7" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="127" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="99.06" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
 <portref moduleinst="INST_REGISTER1" port="INST_3"/>
 <portref moduleinst="CONTROL_LOGIC1" port="INST_3"/>
-<wire x1="139.7" y1="55.88" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="55.88" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="INST_4"/>
 <portref moduleinst="INST_REGISTER1" port="INST_4"/>
-<wire x1="160.02" y1="53.34" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
 <portref moduleinst="INST_REGISTER1" port="INST_5"/>
 <portref moduleinst="CONTROL_LOGIC1" port="INST_5"/>
-<wire x1="139.7" y1="50.8" x2="160.02" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="50.8" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="INST_6"/>
 <portref moduleinst="INST_REGISTER1" port="INST_6"/>
-<wire x1="160.02" y1="48.26" x2="139.7" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="48.26" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <portref moduleinst="INST_REGISTER1" port="INST_7"/>
 <portref moduleinst="CONTROL_LOGIC1" port="INST_7"/>
-<wire x1="139.7" y1="45.72" x2="160.02" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="45.72" x2="193.04" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="INST_8"/>
 <portref moduleinst="INST_REGISTER1" port="INST_8"/>
-<wire x1="160.02" y1="43.18" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="43.18" x2="172.72" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CLR" class="0">
@@ -20236,26 +20380,35 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <label x="-7.62" y="91.44" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="111.76" y1="223.52" x2="111.76" y2="228.6" width="0.1524" layer="91"/>
-<label x="111.76" y="228.6" size="1.778" layer="95" rot="R90"/>
+<wire x1="144.78" y1="223.52" x2="144.78" y2="224.79" width="0.1524" layer="91"/>
+<label x="144.78" y="228.6" size="1.778" layer="95" rot="R90"/>
+<portref moduleinst="A_REGISTER1" port="CLR"/>
+<wire x1="144.78" y1="224.79" x2="144.78" y2="228.6" width="0.1524" layer="91"/>
+<junction x="144.78" y="224.79"/>
 </segment>
 <segment>
 <portref moduleinst="ALU1" port="CLR"/>
-<wire x1="175.26" y1="177.8" x2="175.26" y2="180.34" width="0.1524" layer="91"/>
-<label x="175.26" y="180.34" size="1.778" layer="95" rot="R90"/>
+<wire x1="208.28" y1="177.8" x2="208.28" y2="180.34" width="0.1524" layer="91"/>
+<label x="208.28" y="180.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="111.76" y1="124.46" x2="111.76" y2="129.54" width="0.1524" layer="91"/>
-<label x="111.76" y="129.54" size="1.778" layer="95" rot="R90"/>
+<wire x1="144.78" y1="124.46" x2="144.78" y2="125.73" width="0.1524" layer="91"/>
+<label x="144.78" y="129.54" size="1.778" layer="95" rot="R90"/>
+<portref moduleinst="B_REGISTER1" port="CLR"/>
+<wire x1="144.78" y1="125.73" x2="144.78" y2="129.54" width="0.1524" layer="91"/>
+<junction x="144.78" y="125.73"/>
 </segment>
 <segment>
-<wire x1="111.76" y1="66.04" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
-<label x="111.76" y="68.58" size="1.778" layer="95" rot="R90"/>
+<wire x1="144.78" y1="66.04" x2="144.78" y2="67.31" width="0.1524" layer="91"/>
+<label x="144.78" y="68.58" size="1.778" layer="95" rot="R90"/>
+<portref moduleinst="INST_REGISTER1" port="CLR"/>
+<wire x1="144.78" y1="67.31" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
+<junction x="144.78" y="67.31"/>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="CLR"/>
-<wire x1="200.66" y1="17.78" x2="203.2" y2="17.78" width="0.1524" layer="91"/>
-<label x="203.2" y="17.78" size="1.778" layer="95"/>
+<wire x1="233.68" y1="17.78" x2="236.22" y2="17.78" width="0.1524" layer="91"/>
+<label x="236.22" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="|CLR" class="0">
@@ -20266,8 +20419,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="|CLR"/>
-<wire x1="200.66" y1="15.24" x2="203.2" y2="15.24" width="0.1524" layer="91"/>
-<label x="203.2" y="15.24" size="1.778" layer="95"/>
+<wire x1="233.68" y1="15.24" x2="236.22" y2="15.24" width="0.1524" layer="91"/>
+<label x="236.22" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC_LRS" class="0">
@@ -20278,8 +20431,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="PC_LRS"/>
-<wire x1="200.66" y1="38.1" x2="203.2" y2="38.1" width="0.1524" layer="91"/>
-<label x="203.2" y="38.1" size="1.778" layer="95"/>
+<wire x1="233.68" y1="38.1" x2="236.22" y2="38.1" width="0.1524" layer="91"/>
+<label x="236.22" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC_LE" class="0">
@@ -20290,8 +20443,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="PC_LE"/>
-<wire x1="200.66" y1="40.64" x2="203.2" y2="40.64" width="0.1524" layer="91"/>
-<label x="203.2" y="40.64" size="1.778" layer="95"/>
+<wire x1="233.68" y1="40.64" x2="236.22" y2="40.64" width="0.1524" layer="91"/>
+<label x="236.22" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="COUNT" class="0">
@@ -20302,8 +20455,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="COUNT"/>
-<wire x1="200.66" y1="27.94" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
-<label x="203.2" y="27.94" size="1.778" layer="95"/>
+<wire x1="233.68" y1="27.94" x2="236.22" y2="27.94" width="0.1524" layer="91"/>
+<label x="236.22" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="8B_1" class="0">
@@ -20319,23 +20472,31 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="A_REGISTER1" port="8B_1"/>
-<wire x1="99.06" y1="215.9" x2="96.52" y2="215.9" width="0.1524" layer="91"/>
-<label x="96.52" y="215.9" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="215.9" x2="129.54" y2="215.9" width="0.1524" layer="91"/>
+<label x="129.54" y="215.9" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="ALU1" port="8B_1"/>
-<wire x1="137.16" y1="170.18" x2="134.62" y2="170.18" width="0.1524" layer="91"/>
-<label x="134.62" y="170.18" size="1.778" layer="95" rot="R180"/>
+<wire x1="170.18" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
+<label x="167.64" y="170.18" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="B_REGISTER1" port="8B_1"/>
-<wire x1="99.06" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
-<label x="96.52" y="116.84" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
+<label x="129.54" y="116.84" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="INST_REGISTER1" port="8B_1"/>
-<wire x1="99.06" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
-<label x="96.52" y="58.42" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
+<label x="129.54" y="58.42" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<label x="71.12" y="208.28" size="1.778" layer="95" rot="R90"/>
+<wire x1="71.12" y1="208.28" x2="71.12" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="203.2" x2="71.12" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="203.2" x2="71.12" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="8B_2" class="0">
@@ -20351,23 +20512,31 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="A_REGISTER1" port="8B_2"/>
-<wire x1="99.06" y1="213.36" x2="96.52" y2="213.36" width="0.1524" layer="91"/>
-<label x="96.52" y="213.36" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="213.36" x2="129.54" y2="213.36" width="0.1524" layer="91"/>
+<label x="129.54" y="213.36" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="ALU1" port="8B_2"/>
-<wire x1="137.16" y1="167.64" x2="134.62" y2="167.64" width="0.1524" layer="91"/>
-<label x="134.62" y="167.64" size="1.778" layer="95" rot="R180"/>
+<wire x1="170.18" y1="167.64" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
+<label x="167.64" y="167.64" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="B_REGISTER1" port="8B_2"/>
-<wire x1="99.06" y1="114.3" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
-<label x="96.52" y="114.3" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="114.3" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
+<label x="129.54" y="114.3" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="INST_REGISTER1" port="8B_2"/>
-<wire x1="99.06" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
-<label x="96.52" y="55.88" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
+<label x="129.54" y="55.88" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<label x="73.66" y="208.28" size="1.778" layer="95" rot="R90"/>
+<wire x1="73.66" y1="208.28" x2="73.66" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="200.66" x2="73.66" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="200.66" x2="73.66" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="8B_3" class="0">
@@ -20383,23 +20552,31 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="A_REGISTER1" port="8B_3"/>
-<wire x1="99.06" y1="210.82" x2="96.52" y2="210.82" width="0.1524" layer="91"/>
-<label x="96.52" y="210.82" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="210.82" x2="129.54" y2="210.82" width="0.1524" layer="91"/>
+<label x="129.54" y="210.82" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="ALU1" port="8B_3"/>
-<wire x1="134.62" y1="165.1" x2="137.16" y2="165.1" width="0.1524" layer="91"/>
-<label x="134.62" y="165.1" size="1.778" layer="95" rot="R180"/>
+<wire x1="167.64" y1="165.1" x2="170.18" y2="165.1" width="0.1524" layer="91"/>
+<label x="167.64" y="165.1" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="B_REGISTER1" port="8B_3"/>
-<wire x1="99.06" y1="111.76" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
-<label x="96.52" y="111.76" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="111.76" x2="129.54" y2="111.76" width="0.1524" layer="91"/>
+<label x="129.54" y="111.76" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="INST_REGISTER1" port="8B_3"/>
-<wire x1="99.06" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
-<label x="96.52" y="53.34" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
+<label x="129.54" y="53.34" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<label x="76.2" y="208.28" size="1.778" layer="95" rot="R90"/>
+<wire x1="76.2" y1="208.28" x2="76.2" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="198.12" x2="76.2" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="198.12" x2="76.2" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="8B_4" class="0">
@@ -20415,23 +20592,31 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="A_REGISTER1" port="8B_4"/>
-<wire x1="99.06" y1="208.28" x2="96.52" y2="208.28" width="0.1524" layer="91"/>
-<label x="96.52" y="208.28" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="208.28" x2="129.54" y2="208.28" width="0.1524" layer="91"/>
+<label x="129.54" y="208.28" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="ALU1" port="8B_4"/>
-<wire x1="137.16" y1="162.56" x2="134.62" y2="162.56" width="0.1524" layer="91"/>
-<label x="134.62" y="162.56" size="1.778" layer="95" rot="R180"/>
+<wire x1="170.18" y1="162.56" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
+<label x="167.64" y="162.56" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="B_REGISTER1" port="8B_4"/>
-<wire x1="99.06" y1="109.22" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
-<label x="96.52" y="109.22" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="109.22" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
+<label x="129.54" y="109.22" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="INST_REGISTER1" port="8B_4"/>
-<wire x1="99.06" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
-<label x="96.52" y="50.8" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="50.8" x2="129.54" y2="50.8" width="0.1524" layer="91"/>
+<label x="129.54" y="50.8" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<label x="78.74" y="208.28" size="1.778" layer="95" rot="R90"/>
+<wire x1="78.74" y1="208.28" x2="78.74" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="195.58" x2="78.74" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="195.58" x2="78.74" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="8B_5" class="0">
@@ -20447,23 +20632,31 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="A_REGISTER1" port="8B_5"/>
-<wire x1="99.06" y1="205.74" x2="96.52" y2="205.74" width="0.1524" layer="91"/>
-<label x="96.52" y="205.74" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="205.74" x2="129.54" y2="205.74" width="0.1524" layer="91"/>
+<label x="129.54" y="205.74" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="ALU1" port="8B_5"/>
-<wire x1="137.16" y1="160.02" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
-<label x="134.62" y="160.02" size="1.778" layer="95" rot="R180"/>
+<wire x1="170.18" y1="160.02" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
+<label x="167.64" y="160.02" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="B_REGISTER1" port="8B_5"/>
-<wire x1="99.06" y1="106.68" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
-<label x="96.52" y="106.68" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="106.68" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
+<label x="129.54" y="106.68" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="INST_REGISTER1" port="8B_5"/>
-<wire x1="99.06" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
-<label x="96.52" y="48.26" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="48.26" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
+<label x="129.54" y="48.26" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<label x="81.28" y="208.28" size="1.778" layer="95" rot="R90"/>
+<wire x1="81.28" y1="208.28" x2="81.28" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="195.58" x2="81.28" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="195.58" x2="81.28" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="8B_6" class="0">
@@ -20479,23 +20672,31 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="A_REGISTER1" port="8B_6"/>
-<wire x1="99.06" y1="203.2" x2="96.52" y2="203.2" width="0.1524" layer="91"/>
-<label x="96.52" y="203.2" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="203.2" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
+<label x="129.54" y="203.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="ALU1" port="8B_6"/>
-<wire x1="137.16" y1="157.48" x2="134.62" y2="157.48" width="0.1524" layer="91"/>
-<label x="134.62" y="157.48" size="1.778" layer="95" rot="R180"/>
+<wire x1="170.18" y1="157.48" x2="167.64" y2="157.48" width="0.1524" layer="91"/>
+<label x="167.64" y="157.48" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="B_REGISTER1" port="8B_6"/>
-<wire x1="99.06" y1="104.14" x2="96.52" y2="104.14" width="0.1524" layer="91"/>
-<label x="96.52" y="104.14" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="104.14" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
+<label x="129.54" y="104.14" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="INST_REGISTER1" port="8B_6"/>
-<wire x1="99.06" y1="45.72" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
-<label x="96.52" y="45.72" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<label x="129.54" y="45.72" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<label x="83.82" y="208.28" size="1.778" layer="95" rot="R90"/>
+<wire x1="83.82" y1="208.28" x2="83.82" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="198.12" x2="83.82" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="198.12" x2="91.44" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="8B_7" class="0">
@@ -20511,23 +20712,31 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="A_REGISTER1" port="8B_7"/>
-<wire x1="99.06" y1="200.66" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
-<label x="96.52" y="200.66" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="200.66" x2="129.54" y2="200.66" width="0.1524" layer="91"/>
+<label x="129.54" y="200.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="ALU1" port="8B_7"/>
-<wire x1="137.16" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
-<label x="134.62" y="154.94" size="1.778" layer="95" rot="R180"/>
+<wire x1="170.18" y1="154.94" x2="167.64" y2="154.94" width="0.1524" layer="91"/>
+<label x="167.64" y="154.94" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="B_REGISTER1" port="8B_7"/>
-<wire x1="99.06" y1="101.6" x2="96.52" y2="101.6" width="0.1524" layer="91"/>
-<label x="96.52" y="101.6" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<label x="129.54" y="101.6" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="INST_REGISTER1" port="8B_7"/>
-<wire x1="99.06" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
-<label x="96.52" y="43.18" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="43.18" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
+<label x="129.54" y="43.18" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<label x="86.36" y="208.28" size="1.778" layer="95" rot="R90"/>
+<wire x1="86.36" y1="208.28" x2="86.36" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="LED7" gate="G$1" pin="A"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="200.66" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="200.66" x2="91.44" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="8B_8" class="0">
@@ -20543,23 +20752,31 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="A_REGISTER1" port="8B_8"/>
-<wire x1="99.06" y1="198.12" x2="96.52" y2="198.12" width="0.1524" layer="91"/>
-<label x="96.52" y="198.12" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="198.12" x2="129.54" y2="198.12" width="0.1524" layer="91"/>
+<label x="129.54" y="198.12" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="ALU1" port="8B_8"/>
-<wire x1="137.16" y1="152.4" x2="134.62" y2="152.4" width="0.1524" layer="91"/>
-<label x="134.62" y="152.4" size="1.778" layer="95" rot="R180"/>
+<wire x1="170.18" y1="152.4" x2="167.64" y2="152.4" width="0.1524" layer="91"/>
+<label x="167.64" y="152.4" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="B_REGISTER1" port="8B_8"/>
-<wire x1="99.06" y1="99.06" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
-<label x="96.52" y="99.06" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
+<label x="129.54" y="99.06" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="INST_REGISTER1" port="8B_8"/>
-<wire x1="99.06" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
-<label x="96.52" y="40.64" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
+<label x="129.54" y="40.64" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<label x="88.9" y="208.28" size="1.778" layer="95" rot="R90"/>
+<wire x1="88.9" y1="208.28" x2="88.9" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="LED8" gate="G$1" pin="A"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="203.2" x2="88.9" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="203.2" x2="88.9" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="|CLK" class="0">
@@ -20576,8 +20793,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="RAM_LRS"/>
-<wire x1="200.66" y1="35.56" x2="203.2" y2="35.56" width="0.1524" layer="91"/>
-<label x="203.2" y="35.56" size="1.778" layer="95"/>
+<wire x1="233.68" y1="35.56" x2="236.22" y2="35.56" width="0.1524" layer="91"/>
+<label x="236.22" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="|RAM_OUT" class="0">
@@ -20588,8 +20805,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="|RAM_OUT"/>
-<wire x1="200.66" y1="30.48" x2="203.2" y2="30.48" width="0.1524" layer="91"/>
-<label x="203.2" y="30.48" size="1.778" layer="95"/>
+<wire x1="233.68" y1="30.48" x2="236.22" y2="30.48" width="0.1524" layer="91"/>
+<label x="236.22" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SLC_ADDR" class="0">
@@ -20600,8 +20817,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="SLC_ADDR"/>
-<wire x1="200.66" y1="33.02" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
-<label x="203.2" y="33.02" size="1.778" layer="95"/>
+<wire x1="233.68" y1="33.02" x2="236.22" y2="33.02" width="0.1524" layer="91"/>
+<label x="236.22" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="|RAM_WRITE" class="0">
@@ -20614,123 +20831,123 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <net name="|AREAD" class="0">
 <segment>
 <portref moduleinst="A_REGISTER1" port="|AREAD"/>
-<wire x1="99.06" y1="193.04" x2="96.52" y2="193.04" width="0.1524" layer="91"/>
-<label x="96.52" y="193.04" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="193.04" x2="129.54" y2="193.04" width="0.1524" layer="91"/>
+<label x="129.54" y="193.04" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="INST_REGISTER1" port="|AREAD"/>
-<wire x1="139.7" y1="35.56" x2="142.24" y2="35.56" width="0.1524" layer="91"/>
-<label x="142.24" y="35.56" size="1.778" layer="95"/>
+<wire x1="172.72" y1="35.56" x2="175.26" y2="35.56" width="0.1524" layer="91"/>
+<label x="175.26" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="|AWRITE" class="0">
 <segment>
 <portref moduleinst="A_REGISTER1" port="|AWRITE"/>
-<wire x1="99.06" y1="190.5" x2="96.52" y2="190.5" width="0.1524" layer="91"/>
-<label x="96.52" y="190.5" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="190.5" x2="129.54" y2="190.5" width="0.1524" layer="91"/>
+<label x="129.54" y="190.5" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="|AWRITE"/>
-<wire x1="200.66" y1="50.8" x2="203.2" y2="50.8" width="0.1524" layer="91"/>
-<label x="203.2" y="50.8" size="1.778" layer="95"/>
+<wire x1="233.68" y1="50.8" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
+<label x="236.22" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="|ALUWRITE" class="0">
 <segment>
 <portref moduleinst="ALU1" port="|ALUWRITE"/>
-<wire x1="137.16" y1="147.32" x2="134.62" y2="147.32" width="0.1524" layer="91"/>
-<label x="134.62" y="147.32" size="1.778" layer="95" rot="R180"/>
+<wire x1="170.18" y1="147.32" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
+<label x="167.64" y="147.32" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="|ALUWRITE"/>
-<wire x1="200.66" y1="45.72" x2="203.2" y2="45.72" width="0.1524" layer="91"/>
-<label x="203.2" y="45.72" size="1.778" layer="95"/>
+<wire x1="233.68" y1="45.72" x2="236.22" y2="45.72" width="0.1524" layer="91"/>
+<label x="236.22" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SUB" class="0">
 <segment>
 <portref moduleinst="ALU1" port="SUB"/>
-<wire x1="137.16" y1="144.78" x2="134.62" y2="144.78" width="0.1524" layer="91"/>
-<label x="134.62" y="144.78" size="1.778" layer="95" rot="R180"/>
+<wire x1="170.18" y1="144.78" x2="167.64" y2="144.78" width="0.1524" layer="91"/>
+<label x="167.64" y="144.78" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="|FL" class="0">
 <segment>
 <portref moduleinst="ALU1" port="|FI"/>
-<wire x1="137.16" y1="142.24" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
-<label x="134.62" y="142.24" size="1.778" layer="95" rot="R180"/>
+<wire x1="170.18" y1="142.24" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
+<label x="167.64" y="142.24" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="|FL"/>
-<wire x1="200.66" y1="48.26" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
-<label x="203.2" y="48.26" size="1.778" layer="95"/>
+<wire x1="233.68" y1="48.26" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
+<label x="236.22" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CF" class="0">
 <segment>
 <portref moduleinst="ALU1" port="CF"/>
-<wire x1="137.16" y1="137.16" x2="134.62" y2="137.16" width="0.1524" layer="91"/>
-<label x="134.62" y="137.16" size="1.778" layer="95" rot="R180"/>
+<wire x1="170.18" y1="137.16" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
+<label x="167.64" y="137.16" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="CF"/>
-<wire x1="160.02" y1="35.56" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
-<label x="157.48" y="35.56" size="1.778" layer="95" rot="R180"/>
+<wire x1="193.04" y1="35.56" x2="190.5" y2="35.56" width="0.1524" layer="91"/>
+<label x="190.5" y="35.56" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="ZF" class="0">
 <segment>
 <portref moduleinst="ALU1" port="ZF"/>
-<wire x1="137.16" y1="134.62" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
-<label x="134.62" y="134.62" size="1.778" layer="95" rot="R180"/>
+<wire x1="170.18" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
+<label x="167.64" y="134.62" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="ZF"/>
-<wire x1="160.02" y1="33.02" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
-<label x="157.48" y="33.02" size="1.778" layer="95" rot="R180"/>
+<wire x1="193.04" y1="33.02" x2="190.5" y2="33.02" width="0.1524" layer="91"/>
+<label x="190.5" y="33.02" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="|BREAD" class="0">
 <segment>
 <portref moduleinst="B_REGISTER1" port="|BREAD"/>
-<wire x1="99.06" y1="93.98" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
-<label x="96.52" y="93.98" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
+<label x="129.54" y="93.98" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <portref moduleinst="INST_REGISTER1" port="|BREAD"/>
-<wire x1="139.7" y1="33.02" x2="142.24" y2="33.02" width="0.1524" layer="91"/>
-<label x="142.24" y="33.02" size="1.778" layer="95"/>
+<wire x1="172.72" y1="33.02" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
+<label x="175.26" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ALUSUB" class="0">
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="ALUSUB"/>
-<wire x1="200.66" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
-<label x="203.2" y="43.18" size="1.778" layer="95"/>
+<wire x1="233.68" y1="43.18" x2="236.22" y2="43.18" width="0.1524" layer="91"/>
+<label x="236.22" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="|REG_READ" class="0">
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="|REG_READ"/>
-<wire x1="200.66" y1="53.34" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
-<label x="203.2" y="53.34" size="1.778" layer="95"/>
+<wire x1="233.68" y1="53.34" x2="236.22" y2="53.34" width="0.1524" layer="91"/>
+<label x="236.22" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <portref moduleinst="INST_REGISTER1" port="|REG_READ"/>
-<wire x1="99.06" y1="33.02" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
-<label x="96.52" y="33.02" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="33.02" x2="129.54" y2="33.02" width="0.1524" layer="91"/>
+<label x="129.54" y="33.02" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="|INSTREAD" class="0">
 <segment>
 <portref moduleinst="CONTROL_LOGIC1" port="|INSTREAD"/>
-<wire x1="200.66" y1="25.4" x2="203.2" y2="25.4" width="0.1524" layer="91"/>
-<label x="203.2" y="25.4" size="1.778" layer="95"/>
+<wire x1="233.68" y1="25.4" x2="236.22" y2="25.4" width="0.1524" layer="91"/>
+<label x="236.22" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <portref moduleinst="INST_REGISTER1" port="|INSTREAD"/>
-<wire x1="99.06" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
-<label x="96.52" y="35.56" size="1.778" layer="95" rot="R180"/>
+<wire x1="132.08" y1="35.56" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
+<label x="129.54" y="35.56" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>

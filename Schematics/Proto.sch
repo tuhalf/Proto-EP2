@@ -16309,7 +16309,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <attribute name="VALUE" x="22.86" y="-81.28" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="2.54" y="-121.92" smashed="yes">
-<attribute name="NAME" x="-2.54" y="-113.665" size="1.778" layer="95"/>
+<attribute name="NAME" x="-38.1" y="-123.825" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-2.54" y="-132.08" size="1.778" layer="96"/>
 </instance>
 <instance part="D2" gate="G$1" x="40.64" y="-124.46" smashed="yes">

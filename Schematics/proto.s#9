@@ -13424,7 +13424,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="149.86" y1="104.14" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A/M" class="0">
+<net name="AMS" class="0">
 <segment>
 <pinref part="IC4" gate="A" pin="Q"/>
 <wire x1="180.34" y1="114.3" x2="182.88" y2="114.3" width="0.1524" layer="91"/>

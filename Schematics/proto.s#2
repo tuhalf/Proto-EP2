@@ -19634,12 +19634,6 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="71.125003125" y1="53.338853125" x2="71.125003125" y2="53.35541875" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$105" class="0">
-<segment>
-<pinref part="JP7" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="43.18" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="JP6" gate="G$1" pin="1"/>
@@ -19655,6 +19649,12 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="81.28" y1="43.18" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="A" pin="4B"/>
 <wire x1="81.28" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$104" class="0">
+<segment>
+<pinref part="JP7" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="53.34" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
