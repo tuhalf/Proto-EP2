@@ -2,7 +2,7 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/ertog/workplace/Creatiny/Proto-EP2/Schematics/proto.brd
 
-Start at      : 00:15:14 (10.05.2019)
+Start at      : 00:15:18 (10.05.2019)
 End at        : 03:00:00 (1.01.1970)
 Elapsed time  : 00:00:00
 

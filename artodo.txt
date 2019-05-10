@@ -1,0 +1,2 @@
+how to port BASIC 
+how to make text ui for homebuilt computer

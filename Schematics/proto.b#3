@@ -3,7 +3,7 @@
 <eagle version="9.3.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -32,10 +32,10 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -75,18 +75,18 @@
 <board>
 <fusionsync huburn="a.cGVyc29uYWw6dWUyYzAxZDJj" projecturn="a.cGVyc29uYWw6dWUyYzAxZDJjIzIwMTkwNTA1MTkyMDg5NTI2" f3durn="urn:adsk.wipprod:dm.lineage:70GWcDjMSPOcQDQjk4DCcg" pcbguid="22574776-4e41-4d66-91ec-4a67a1a4bc81" lastpulledtime="" lastsyncedchangeguid="bd499cde-6b20-ed0b-bac9-61ddcb5f395d"/>
 <plain>
-<wire x1="-15.494" y1="38.354" x2="459.72" y2="40.386" width="0" layer="20"/>
-<wire x1="459.72" y1="40.386" x2="459.212" y2="440.36" width="0" layer="20"/>
-<wire x1="459.212" y1="440.36" x2="-18.542" y2="438.328" width="0" layer="20"/>
-<wire x1="-18.542" y1="438.328" x2="-15.494" y2="38.354" width="0" layer="20"/>
-<text x="53.086" y="377.952" size="1.778" layer="1">Clock/Saat</text>
-<text x="371.094" y="268.732" size="1.778" layer="1">Program Counter/Program Sayıcı</text>
-<text x="376.428" y="203.962" size="1.778" layer="1">A Register/A Kaydedicisi</text>
-<text x="379.476" y="119.38" size="1.778" layer="1">B Register/B Kaydedicisi</text>
-<text x="379.222" y="66.802" size="1.778" layer="1">ALU/Mantıksal İşlem Birimi</text>
-<text x="93.218" y="105.156" size="1.778" layer="1">Controll Signals/Kontrol Sinyalleri</text>
-<text x="117.094" y="125.984" size="1.778" layer="1">Control Logic/Kontrol Mantığı</text>
-<text x="45.212" y="192.024" size="1.778" layer="1">Instruction Register/Talimat Kaydedicisi</text>
+<wire x1="-23.368" y1="39.37" x2="459.212" y2="38.862" width="0" layer="20"/>
+<wire x1="459.212" y1="38.862" x2="459.212" y2="440.36" width="0" layer="20"/>
+<wire x1="459.212" y1="440.36" x2="-23.368" y2="440.868" width="0" layer="20"/>
+<wire x1="-23.368" y1="440.868" x2="-23.368" y2="39.37" width="0" layer="20"/>
+<text x="53.086" y="377.952" size="1.778" layer="21">Clock/Saat</text>
+<text x="371.094" y="268.732" size="1.778" layer="21">Program Counter/Program Sayıcı</text>
+<text x="376.428" y="203.962" size="1.778" layer="21">A Register/A Kaydedicisi</text>
+<text x="379.476" y="119.38" size="1.778" layer="21">B Register/B Kaydedicisi</text>
+<text x="379.222" y="66.802" size="1.778" layer="21">ALU/Mantıksal İşlem Birimi</text>
+<text x="93.218" y="105.156" size="1.778" layer="21">Controll Signals/Kontrol Sinyalleri</text>
+<text x="117.094" y="125.984" size="1.778" layer="21">Control Logic/Kontrol Mantığı</text>
+<text x="45.212" y="192.024" size="1.778" layer="21">Instruction Register/Talimat Kaydedicisi</text>
 <wire x1="-18.034" y1="373.634" x2="80.518" y2="373.634" width="0.1524" layer="25"/>
 <wire x1="80.518" y1="373.634" x2="80.518" y2="440.436" width="0.1524" layer="25"/>
 </plain>
