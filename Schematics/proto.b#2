@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -32,8 +32,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -73,22 +73,85 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYzAxZDJj" projecturn="a.cGVyc29uYWw6dWUyYzAxZDJjIzIwMTkwNTA1MTkyMDg5NTI2" f3durn="urn:adsk.wipprod:dm.lineage:70GWcDjMSPOcQDQjk4DCcg" pcbguid="22574776-4e41-4d66-91ec-4a67a1a4bc81" lastpulledtime="" lastsyncedchangeguid="bd499cde-6b20-ed0b-bac9-61ddcb5f395d"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYzAxZDJj" projecturn="a.cGVyc29uYWw6dWUyYzAxZDJjIzIwMTkwNTA1MTkyMDg5NTI2" f3durn="urn:adsk.wipprod:dm.lineage:70GWcDjMSPOcQDQjk4DCcg" pcbguid="22574776-4e41-4d66-91ec-4a67a1a4bc81" lastpulledtime="" lastsyncedchangeguid="ec21609c-e277-b6a9-66d4-813043dfa6a1"/>
 <plain>
 <wire x1="-23.368" y1="39.37" x2="459.212" y2="38.862" width="0" layer="20"/>
 <wire x1="459.212" y1="38.862" x2="459.212" y2="440.36" width="0" layer="20"/>
 <wire x1="459.212" y1="440.36" x2="-23.368" y2="440.868" width="0" layer="20"/>
 <wire x1="-23.368" y1="440.868" x2="-23.368" y2="39.37" width="0" layer="20"/>
-<text x="53.086" y="377.952" size="1.778" layer="21">Clock/Saat</text>
-<text x="371.094" y="268.732" size="1.778" layer="21">Program Counter/Program Sayıcı</text>
-<text x="376.428" y="203.962" size="1.778" layer="21">A Register/A Kaydedicisi</text>
-<text x="379.476" y="119.38" size="1.778" layer="21">B Register/B Kaydedicisi</text>
-<text x="379.222" y="66.802" size="1.778" layer="21">ALU/Mantıksal İşlem Birimi</text>
-<text x="93.218" y="105.156" size="1.778" layer="21">Controll Signals/Kontrol Sinyalleri</text>
-<text x="117.094" y="125.984" size="1.778" layer="21">Control Logic/Kontrol Mantığı</text>
-<text x="45.212" y="192.024" size="1.778" layer="21">Instruction Register/Talimat Kaydedicisi</text>
-<wire x1="-18.034" y1="373.634" x2="80.518" y2="373.634" width="0.1524" layer="25"/>
-<wire x1="80.518" y1="373.634" x2="80.518" y2="440.436" width="0.1524" layer="25"/>
+<text x="38.1" y="380.492" size="5.08" layer="21">Clock/Saat</text>
+<text x="342.138" y="386.334" size="5.08" layer="21">Program Counter/Program Sayıcı</text>
+<text x="289.814" y="186.182" size="5.08" layer="21" rot="R90">A Register/A Kaydedicisi</text>
+<text x="291.084" y="101.092" size="5.08" layer="21" rot="R90">B Register/B Kaydedicisi</text>
+<text x="379.222" y="66.802" size="5.08" layer="21">ALU/Mantıksal İşlem Birimi</text>
+<text x="77.216" y="103.632" size="5.08" layer="21">Controll Signals/Kontrol Sinyalleri</text>
+<text x="120.396" y="131.826" size="5.08" layer="21">Control Logic/Kontrol Mantığı</text>
+<text x="51.816" y="218.44" size="5.08" layer="21">Instruction Register/Talimat Kaydedicisi</text>
+<wire x1="-23.876" y1="373.888" x2="74.93" y2="373.888" width="0.1524" layer="21"/>
+<wire x1="74.93" y1="373.888" x2="74.676" y2="440.69" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="110.998" x2="217.678" y2="110.998" width="0.1524" layer="21"/>
+<wire x1="217.678" y1="110.998" x2="217.678" y2="66.04" width="0.1524" layer="21"/>
+<wire x1="217.678" y1="66.04" x2="4.572" y2="66.04" width="0.1524" layer="21"/>
+<wire x1="4.572" y1="66.04" x2="4.572" y2="110.998" width="0.1524" layer="21"/>
+<wire x1="4.572" y1="110.998" x2="4.064" y2="110.998" width="0.1524" layer="21"/>
+<wire x1="69.088" y1="186.69" x2="69.088" y2="123.698" width="0.1524" layer="21"/>
+<wire x1="69.088" y1="123.698" x2="208.534" y2="123.698" width="0.1524" layer="21"/>
+<wire x1="208.534" y1="123.698" x2="208.534" y2="181.61" width="0.1524" layer="21"/>
+<wire x1="208.534" y1="181.61" x2="95.504" y2="181.61" width="0.1524" layer="21"/>
+<wire x1="95.504" y1="181.61" x2="95.504" y2="180.848" width="0.1524" layer="21"/>
+<wire x1="95.504" y1="180.848" x2="92.964" y2="180.848" width="0.1524" layer="21"/>
+<wire x1="92.964" y1="180.848" x2="92.964" y2="186.69" width="0.1524" layer="21"/>
+<wire x1="92.964" y1="186.69" x2="68.834" y2="186.69" width="0.1524" layer="21"/>
+<wire x1="68.834" y1="186.69" x2="68.834" y2="186.182" width="0.1524" layer="21"/>
+<wire x1="49.53" y1="190.246" x2="49.53" y2="188.468" width="0.1524" layer="21"/>
+<wire x1="49.53" y1="188.468" x2="113.792" y2="188.468" width="0.1524" layer="21"/>
+<wire x1="113.792" y1="188.468" x2="113.792" y2="182.372" width="0.1524" layer="21"/>
+<wire x1="113.792" y1="182.372" x2="168.656" y2="182.372" width="0.1524" layer="21"/>
+<wire x1="168.656" y1="182.372" x2="168.656" y2="227.584" width="0.1524" layer="21"/>
+<wire x1="168.656" y1="227.584" x2="49.276" y2="227.584" width="0.1524" layer="21"/>
+<wire x1="49.276" y1="227.584" x2="49.276" y2="189.992" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="368.046" x2="-12.7" y2="186.944" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="186.944" x2="35.052" y2="186.944" width="0.1524" layer="21"/>
+<wire x1="35.052" y1="186.944" x2="35.052" y2="229.362" width="0.1524" layer="21"/>
+<wire x1="35.052" y1="229.362" x2="199.136" y2="229.362" width="0.1524" layer="21"/>
+<wire x1="199.136" y1="229.362" x2="199.136" y2="366.776" width="0.1524" layer="21"/>
+<wire x1="199.136" y1="366.776" x2="-12.954" y2="366.776" width="0.1524" layer="21"/>
+<wire x1="-12.954" y1="366.776" x2="-12.954" y2="360.934" width="0.1524" layer="21"/>
+<text x="1.016" y="338.836" size="5.08" layer="21">RAM/Veri Deposu</text>
+<wire x1="291.846" y1="99.314" x2="291.846" y2="43.942" width="0.1524" layer="21"/>
+<wire x1="291.846" y1="43.942" x2="457.708" y2="43.942" width="0.1524" layer="21"/>
+<wire x1="457.708" y1="43.942" x2="457.708" y2="99.06" width="0.1524" layer="21"/>
+<wire x1="457.708" y1="99.06" x2="457.708" y2="99.314" width="0.1524" layer="21"/>
+<wire x1="291.084" y1="99.314" x2="291.846" y2="99.314" width="0.1524" layer="21"/>
+<wire x1="281.178" y1="101.6" x2="281.178" y2="101.346" width="0.1524" layer="21"/>
+<wire x1="281.178" y1="101.346" x2="281.178" y2="99.568" width="0.1524" layer="21"/>
+<wire x1="281.178" y1="99.568" x2="376.682" y2="99.568" width="0.1524" layer="21"/>
+<wire x1="376.682" y1="99.568" x2="376.682" y2="137.668" width="0.1524" layer="21"/>
+<wire x1="376.682" y1="137.668" x2="335.28" y2="137.668" width="0.1524" layer="21"/>
+<wire x1="335.28" y1="137.668" x2="335.28" y2="164.084" width="0.1524" layer="21"/>
+<wire x1="335.28" y1="164.084" x2="296.418" y2="164.084" width="0.1524" layer="21"/>
+<wire x1="296.418" y1="164.084" x2="296.418" y2="170.688" width="0.1524" layer="21"/>
+<wire x1="296.418" y1="170.688" x2="281.686" y2="170.688" width="0.1524" layer="21"/>
+<wire x1="281.686" y1="170.688" x2="281.432" y2="170.688" width="0.1524" layer="21"/>
+<wire x1="281.432" y1="170.688" x2="281.432" y2="101.346" width="0.1524" layer="21"/>
+<wire x1="281.432" y1="101.346" x2="281.178" y2="101.346" width="0.1524" layer="21"/>
+<wire x1="457.708" y1="99.06" x2="406.654" y2="99.06" width="0.1524" layer="21"/>
+<wire x1="406.654" y1="99.06" x2="406.654" y2="210.566" width="0.1524" layer="21"/>
+<wire x1="406.654" y1="210.566" x2="364.236" y2="210.566" width="0.1524" layer="21"/>
+<wire x1="364.236" y1="210.566" x2="336.55" y2="210.566" width="0.1524" layer="21"/>
+<wire x1="336.55" y1="210.566" x2="336.55" y2="193.294" width="0.1524" layer="21"/>
+<wire x1="336.55" y1="193.294" x2="327.152" y2="193.294" width="0.1524" layer="21"/>
+<wire x1="327.152" y1="193.294" x2="327.152" y2="193.04" width="0.1524" layer="21"/>
+<wire x1="327.152" y1="193.04" x2="319.278" y2="193.04" width="0.1524" layer="21"/>
+<wire x1="319.278" y1="193.04" x2="319.278" y2="164.338" width="0.1524" layer="21"/>
+<wire x1="281.686" y1="170.688" x2="281.686" y2="257.048" width="0.1524" layer="21"/>
+<wire x1="281.686" y1="257.048" x2="364.236" y2="257.048" width="0.1524" layer="21"/>
+<wire x1="364.236" y1="257.048" x2="364.236" y2="210.566" width="0.1524" layer="21"/>
+<wire x1="276.352" y1="398.272" x2="281.686" y2="398.272" width="0.1524" layer="21"/>
+<wire x1="281.686" y1="398.272" x2="438.15" y2="398.272" width="0.1524" layer="21"/>
+<wire x1="438.15" y1="398.272" x2="438.15" y2="261.874" width="0.1524" layer="21"/>
+<wire x1="438.15" y1="261.874" x2="281.686" y2="261.874" width="0.1524" layer="21"/>
+<wire x1="281.686" y1="261.874" x2="281.686" y2="398.272" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="special" urn="urn:adsk.eagle:library:367">
@@ -2037,7 +2100,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
 </class>
 </classes>
 <designrules name="default">
