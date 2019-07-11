@@ -20395,6 +20395,7 @@ W = angled&lt;p&gt;
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="220"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="220"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="220"/>
+<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="220"/>
 </parts>
 <sheets>
 <sheet>
@@ -20439,8 +20440,8 @@ W = angled&lt;p&gt;
 <instance part="P+2" gate="VCC" x="-101.6" y="-22.86" smashed="yes">
 <attribute name="VALUE" x="-104.14" y="-25.4" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND4" gate="1" x="-109.22" y="-71.12" smashed="yes">
-<attribute name="VALUE" x="-111.76" y="-73.66" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="-106.68" y="-73.66" smashed="yes">
+<attribute name="VALUE" x="-109.22" y="-76.2" size="1.778" layer="96"/>
 </instance>
 <instance part="S1" gate="G$1" x="-109.22" y="-40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="-114.046" y="-43.688" size="1.778" layer="95" rot="R90"/>
@@ -20632,6 +20633,10 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="-115.3414" y="82.55" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-120.142" y="82.55" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="R22" gate="G$1" x="-106.68" y="-63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="-108.1786" y="-67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-103.378" y="-67.31" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20741,18 +20746,6 @@ W = angled&lt;p&gt;
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="1B"/>
-<wire x1="-106.68" y1="-45.72" x2="-106.68" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="-106.68" y1="-50.8" x2="-106.68" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-58.42" x2="-109.22" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="-109.22" y1="-58.42" x2="-109.22" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="B" pin="I0"/>
-<wire x1="-106.68" y1="-50.8" x2="-88.9" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="B" pin="I1"/>
-<wire x1="-88.9" y1="-50.8" x2="-88.9" y2="-55.88" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="A" pin="G2A"/>
 <pinref part="IC3" gate="A" pin="G2B"/>
 <wire x1="-12.7" y1="7.62" x2="-12.7" y2="10.16" width="0.1524" layer="91"/>
@@ -20826,6 +20819,11 @@ W = angled&lt;p&gt;
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="-111.76" y1="83.82" x2="-116.84" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-116.84" y1="83.82" x2="-116.84" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="-106.68" y1="-71.12" x2="-106.68" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="|CLR" class="0">
@@ -21298,6 +21296,18 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="LED13" gate="G$1" pin="C"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="S1" gate="G$1" pin="1B"/>
+<wire x1="-106.68" y1="-45.72" x2="-106.68" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-50.8" x2="-106.68" y2="-58.42" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="B" pin="I0"/>
+<wire x1="-106.68" y1="-50.8" x2="-88.9" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="B" pin="I1"/>
+<wire x1="-88.9" y1="-50.8" x2="-88.9" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="R22" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>

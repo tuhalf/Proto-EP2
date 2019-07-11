@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-07-10T13:10:34Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Program_Counter"
+        },
+        "Owner": "Omer Akgul <oglusumben@gmail.com>",
+        "Size": {
+            "X": 105.39,
+            "Y": 117.78
+        }
+    }
+}
