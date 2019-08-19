@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2019-07-10T13:19:32Z",
+        "CreationDate": "2019-08-19T01:38:26Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -18,7 +18,7 @@
         "Owner": "Omer Akgul <oglusumben@gmail.com>",
         "Size": {
             "X": 157.46,
-            "Y": 171.12
+            "Y": 178.74
         }
     }
 }

@@ -17347,33 +17347,6 @@ Source: www.kingbright.com</description>
 <label x="251.46" y="-284.48" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
-<net name="PC_LE" class="0">
-<segment>
-<pinref part="V5" gate="1" pin="!LOAD"/>
-<wire x1="284.48" y1="-276.86" x2="284.48" y2="-284.48" width="0.1524" layer="91"/>
-<label x="284.48" y="-284.48" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="V6" gate="1" pin="!LOAD"/>
-<wire x1="223.52" y1="-276.86" x2="223.52" y2="-284.48" width="0.1524" layer="91"/>
-<label x="223.52" y="-284.48" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="V7" gate="1" pin="!LOAD"/>
-<wire x1="162.56" y1="-276.86" x2="162.56" y2="-284.48" width="0.1524" layer="91"/>
-<label x="162.56" y="-284.48" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="V8" gate="1" pin="!LOAD"/>
-<wire x1="101.6" y1="-276.86" x2="101.6" y2="-284.48" width="0.1524" layer="91"/>
-<label x="101.6" y="-287.02" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="JP6" gate="A" pin="3"/>
-<wire x1="-35.56" y1="-63.5" x2="-30.48" y2="-63.5" width="0.1524" layer="91"/>
-<label x="-30.48" y="-63.5" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$53" class="0">
 <segment>
 <pinref part="V5" gate="1" pin="QC"/>
@@ -17576,9 +17549,24 @@ Source: www.kingbright.com</description>
 <label x="-20.32" y="-33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="V5" gate="1" pin="D"/>
-<wire x1="327.66" y1="-276.86" x2="327.66" y2="-284.48" width="0.1524" layer="91"/>
-<label x="327.66" y="-284.48" size="1.778" layer="95" rot="MR270"/>
+<pinref part="V5" gate="1" pin="!LOAD"/>
+<wire x1="284.48" y1="-276.86" x2="284.48" y2="-284.48" width="0.1524" layer="91"/>
+<label x="284.48" y="-284.48" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="V6" gate="1" pin="!LOAD"/>
+<wire x1="223.52" y1="-276.86" x2="223.52" y2="-284.48" width="0.1524" layer="91"/>
+<label x="223.52" y="-284.48" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="V7" gate="1" pin="!LOAD"/>
+<wire x1="162.56" y1="-276.86" x2="162.56" y2="-284.48" width="0.1524" layer="91"/>
+<label x="162.56" y="-284.48" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="V8" gate="1" pin="!LOAD"/>
+<wire x1="101.6" y1="-276.86" x2="101.6" y2="-284.48" width="0.1524" layer="91"/>
+<label x="101.6" y="-287.02" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="8B_1" class="0">

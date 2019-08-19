@@ -3,17 +3,17 @@
 [ ]: Adress
 ( ): Condition - Based on registers A and B, takes parameters > or =
 ______________________________________________________________________
-ADD
-	Add two numbers that are in A and B registers and store it in ALU
+ADD [X]
+	Add two numbers that are in A and B registers and write it to X address
 
-SUB - Subtract
-	Subtract A from B and store in ALU 
+SUB [X]- Subtract
+	Subtract A from B and write it to X address 
 
 LOAD {X} 
 	Load data from next adress to X register 
 
-STORE {X} [Y]
-	Store data form register X to Y adress in RAM // works only with A register and ALU 
+STORE [X]
+	Store data form register A to X adress in RAM 
 
 LWJ {X} [Y] - Load With Jump
 	Load data from Y adress to X register
@@ -23,4 +23,8 @@ JUMP [X]
 
 CJ (X) [Y] - Conditional Jump
 	If X condition is TRUE, jump to Y adress in RAM
+
+HLT
+	Halts the system
+
 
