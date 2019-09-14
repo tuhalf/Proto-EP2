@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-07-22T09:53:09Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Clock_BUS"
+        },
+        "Owner": "Omer Akgul <oglusumben@gmail.com>",
+        "Size": {
+            "X": 158.73,
+            "Y": 146.99
+        }
+    }
+}

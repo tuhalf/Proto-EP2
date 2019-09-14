@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-07-22T10:19:11Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Control_Logic"
+        },
+        "Owner": "Omer Akgul <oglusumben@gmail.com>",
+        "Size": {
+            "X": 156.19,
+            "Y": 126.67
+        }
+    }
+}
