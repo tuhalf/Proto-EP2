@@ -21,8 +21,17 @@ LWJ {X} [Y] - Load With Jump
 JUMP [X]
 	Jump to X adress in RAM
 
-CJ (X) [Y] - Conditional Jump
+CJ (X) [Y] - Conditional Jump (Carry or Zero)
 	If X condition is TRUE, jump to Y adress in RAM
+
+LSCR [X] [Y]
+	Loads the data stored in X address from RAM to Y address from GPU (Each bit is one pixel)
+
+LSCR {X} [Y]
+	Loads the data stored in X register to Y address from GPU (Each bit is one pixel)
+
+LPNC [X]
+	Starts loading the punch card starting from X address
 
 HLT
 	Halts the system
