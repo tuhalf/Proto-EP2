@@ -34,14 +34,13 @@ LSCR [X] [Y]
 LSCR {X} [Y]
 	Loads the data stored in X register to Y address from GPU (Each bit is one pixel)
   
-LPNC [X]
+LPNC \[X]
 	Starts loading the punch card starting from X address
   
 HLT
 	Halts the system
-
-------------------------------------------------------------------------------------------------------------------------------------
-
+	
+	
 Microcode Explained
 bits
 0nnnn00000nn00__
@@ -68,55 +67,65 @@ PC_LRS || RAM_OUT				00100000100 - 01111001 00010000
 COUNT						00100000010 - 01111000 00111000	
 RAM_OUT || PC_LE			        00100000110 - 01111010 00010000
 RAM_OUT || INSTREAD				00100000001 - 01111000 00000000
-----------------
+
+-----------------------------------------------------------------------------------
+
 ----LOAD {X}---- (X-------)			                nn010000    
 COUNT                                           00010000000 - 01111000 00111000
 RAM_OUT || REG_READ                             00010000100 - 00111000 00010000
 COUNT                                           00010000010 - 01111000 00111000
 RAM_OUT || INSTREAD                             00010000110 - 01111000 00000000
+
 ----------------
 ----ADD [X]---- (N-------,XXXXXXXX,XXXXXXXX)    nn110000
 COUNT || RAM_OUT || RAM_LRS || SLC_ADDR         00110000000 - 01111000 11011000
 COUNT || RAM_OUT || SLC_ADDR                    00110000100 - 01111000 01011000
 RAM_AS || ALUWRITE                              00110000010 - 01110000 00110100
 RAM_OUT || INSTREAD                             00110000110 - 01111000 00000000
+
 ----------------
 ----SUB [X]---- (N-------,XXXXXXXX,XXXXXXXX)    nn001000
 COUNT || RAM_OUT || RAM_LRS || SLC_ADDR         00001000000 - 01111000 11011000
 COUNT || RAM_OUT || SLC_ADDR                    00001000100 - 01111000 01011000
 RAM_AS || ALUSUB || ALUWRITE                    00001000010 - 01110100 00110100
 RAM_OUT || INSTREAD                             00001000110 - 01111000 00000000
+
 ----------------
 ----STORE [X]---- (N-------,XXXXXXXX,XXXXXXXX)  nn101000
 COUNT || RAM_OUT || RAM_LRS || SLC_ADDR         00101000000 - 01111000 11011000
 COUNT || RAM_OUT || SLC_ADDR                    00101000100 - 01111000 01011000
 RAM_AS || AWRITE                                00101000010 - 01011000 00110100
 RAM_OUT || INSTREAD                             00101000110 - 01111000 00000000
+
 -----------------
 ----LWJ {X} [Y]---- (X-------,YYYYYYYY,YYYYYYYY)nn111000
 COUNT || RAM_OUT || RAM_LRS || SLC_ADDR         00111000000 - 01111000 11011000
 COUNT || RAM_OUT || SLC_ADDR                    00111000100 - 01111000 01011000
 RAM_AS || RAM_OUT || REG_READ                   00111000010 - 00111000 00010100
 RAM_OUT || INSTREAD                             00111000110 - 01111000 00000000
+
 -------------------
 ----CJ (ZERO) [Y]-- (N-1-----,XXXXXXXX,XXXXXXXX)nn001100
 COUNT || FL                                     00001100000 - 01101000 00111000
-01OOOOOO[PC_LRS || RAM_OUT                      01001100100 - 01111001 00010000
+01OOOOOO{PC_LRS || RAM_OUT                      01001100100 - 01111001 00010000
 COUNT || RAM_OUT || PC_LE                       01001100010 - 01111010 00011000
-RAM_OUT || INSTREAD]                            01001100110 - 01111000 00000000
+RAM_OUT || INSTREAD}                            01001100110 - 01111000 00000000
 COUNT                                           00001100100 - 01111000 00111000
 COUNT || RAM_OUT || INSTREAD                    00001100010 - 01111000 00001000
+
 ---------------------
 ---CJ (CARRY) [Y]-- (N-1-----,XXXXXXXX,XXXXXXXX)nn100100
 COUNT || FL                                     00100100000 - 01101000 00111000
-10OOOOOO[PC_LRS || RAM_OUT                      10100100100 - 01111001 00010000
+10OOOOOO{PC_LRS || RAM_OUT                      10100100100 - 01111001 00010000
 COUNT || RAM_OUT || PC_LE                       10100100010 - 01111010 00011000
-RAM_OUT || INSTREAD]                            10100100110 - 01111000 00000000
+RAM_OUT || INSTREAD}                            10100100110 - 01111000 00000000
 COUNT                                           00100100100 - 01111000 00111000
 COUNT || RAM_OUT || INSTREAD                    00100100010 - 01111000 00001000
+
 ---------------------
 ----HLT----                                     nn111111
 HLT                                             00111111000 - 11111000 00110000
+
 -----------
 
 
