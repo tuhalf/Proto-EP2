@@ -34,7 +34,7 @@ LSCR [X] [Y]
 LSCR {X} [Y]
 	Loads the data stored in X register to Y address from GPU (Each bit is one pixel)
   
-LPNC \[X]
+LPNC [X]
 	Starts loading the punch card starting from X address
   
 HLT
